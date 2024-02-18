@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DIp-iq-cjo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DIp-iq-cjo">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,19 +17,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_splash" translatesAutoresizingMaskIntoConstraints="NO" id="BhS-52-493">
-                                <rect key="frame" x="50" y="301" width="293" height="250"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="abD-fM-NcV"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash 1" translatesAutoresizingMaskIntoConstraints="NO" id="o0A-cF-W5w">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eYN-A0-qBw"/>
                         <color key="backgroundColor" name="#FCFCFC"/>
                         <constraints>
-                            <constraint firstItem="BhS-52-493" firstAttribute="leading" secondItem="eYN-A0-qBw" secondAttribute="leading" constant="50" id="Ck0-5w-uMW"/>
-                            <constraint firstItem="eYN-A0-qBw" firstAttribute="trailing" secondItem="BhS-52-493" secondAttribute="trailing" constant="50" id="sAy-Tg-7gl"/>
-                            <constraint firstItem="BhS-52-493" firstAttribute="centerY" secondItem="ZvK-Wf-RkD" secondAttribute="centerY" id="tob-RM-qBe"/>
+                            <constraint firstItem="o0A-cF-W5w" firstAttribute="leading" secondItem="ZvK-Wf-RkD" secondAttribute="leading" id="9Yi-ph-5tQ"/>
+                            <constraint firstItem="eYN-A0-qBw" firstAttribute="trailing" secondItem="o0A-cF-W5w" secondAttribute="trailing" id="BbT-Cl-XTp"/>
+                            <constraint firstItem="o0A-cF-W5w" firstAttribute="top" secondItem="ZvK-Wf-RkD" secondAttribute="top" id="dqx-hg-nch"/>
+                            <constraint firstAttribute="bottom" secondItem="o0A-cF-W5w" secondAttribute="bottom" id="wdV-pY-nLt"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aze-SW-5ex"/>
@@ -40,7 +38,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo_splash" width="195" height="195"/>
+        <image name="splash 1" width="375" height="812"/>
         <namedColor name="#FCFCFC">
             <color red="0.98799997568130493" green="0.98799997568130493" blue="0.98799997568130493" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

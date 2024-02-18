@@ -44,7 +44,9 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var searchTextField: UITextField!
     
+    @IBOutlet weak var tourGuideView: UIView!
     
+    @IBOutlet weak var tourGuideButton: UIButton!
     var coountryVC = CounriesViewController()
     var countryId = AppDelegate.currentCountry.id ?? 6
 //    var countryName  MOLHLanguage.currentAppleLanguage() == "en" ? AppDelegate.currentCountry.nameEn : AppDelegate.currentCountry.nameAr
@@ -126,8 +128,27 @@ class HomeViewController: UIViewController {
    
     //MARK: Methods
     
+    func adjustViewForLanguageDirection() {
+        if MOLHLanguage.isArabic() {
+            tourGuideView.semanticContentAttribute = .forceRightToLeft
+        }else {
+            tourGuideView.semanticContentAttribute = .forceLeftToRight
+        }
+//        if UIView.userInterfaceLayoutDirection(for: view.semanticContentAttribute) == .rightToLeft {
+//                // App is in a right-to-left language
+//                
+//                // Adjust constraints or positioning as needed
+//            } else {
+//                // App is in a left-to-right language
+//               
+//                // Adjust constraints or positioning as needed
+//            }
+        }
+    
     private func ConfigureView(){
-        
+        tourGuideView.layer.cornerRadius = tourGuideView.frame.width / 2
+        tourGuideButton.layer.cornerRadius = tourGuideView.frame.width / 2
+//        adjustViewForLanguageDirection()
         searchTextField.delegate = self
         searchTextField.returnKeyType = .search
         customNavView.cornerRadius = 30
@@ -370,6 +391,11 @@ class HomeViewController: UIViewController {
         let storesVC = StoresVC.instantiate()
         navigationController?.pushViewController(storesVC, animated: true)
     }
+    
+    @IBAction func didTapTourGuideButton(_ sender: UIButton) {
+        print("gogogo")
+    }
+    
 }
 extension HomeViewController{
     
