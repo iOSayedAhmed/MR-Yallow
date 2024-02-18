@@ -7,6 +7,7 @@
 
 import UIKit
 import WoofTabBarController
+import MOLH
 
 class CategoryViewController: UIViewController {
     
@@ -106,6 +107,8 @@ extension CategoryViewController: UICollectionViewDelegate, UICollectionViewData
                 let homeDetailsVC = UIStoryboard(name: MAIN_STORYBOARD, bundle: nil).instantiateViewController(withIdentifier: "homeDetails") as! HomeDetailsViewController
                 homeDetailsVC.selectedCategoryIndex = categoryIndex 
                 homeDetailsVC.selectedSubCategoryIndex = indexPath.row
+                homeDetailsVC.mainCategory = MOLHLanguage.isArabic() ? categories[indexPath.row].nameAr ?? "" :categories[indexPath.row].nameEn ?? ""
+                homeDetailsVC.isComeFromMainCategory = true
                 homeDetailsVC.subCategories = sideCatgeory
                 homeDetailsVC.categories = categories
                 homeDetailsVC.isComeFromCategory = true

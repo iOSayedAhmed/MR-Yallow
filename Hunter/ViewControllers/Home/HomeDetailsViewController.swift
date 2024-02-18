@@ -36,6 +36,10 @@ class HomeDetailsViewController: UIViewController {
     
     @IBOutlet weak var loadingIndecator: NVActivityIndicatorView!
     
+    @IBOutlet weak var mainCategoryTitle: UILabel!
+    
+    @IBOutlet weak var mainCategoryCVHeightConstraint: NSLayoutConstraint!
+    
     var coountryVC = CounriesViewController()
     var countryId = AppDelegate.currentCountry.id ?? 6
     var countryName = MOLHLanguage.currentAppleLanguage() == "en" ? AppDelegate.currentCountry.nameEn : AppDelegate.currentCountry.nameAr
@@ -59,7 +63,8 @@ class HomeDetailsViewController: UIViewController {
     var selectSubCategory = false
     var comeToMoreAds = false
     var isPagination = false
-    
+    var mainCategory = ""
+    var isComeFromMainCategory = false
     let titleLabel = UILabel()
     private let shimmerView = ProductsShimmerView.loadFromNib()
     
@@ -119,6 +124,7 @@ class HomeDetailsViewController: UIViewController {
     
     private func ConfigureView(){
         customNavView.cornerRadius = 30
+        mainCategoryTitle.text = mainCategory
         customNavView.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMinXMaxYCorner]
         self.navigationController?.navigationBar.isHidden = false
         //        self.navigationItem.title = "Home".localize
@@ -132,9 +138,25 @@ class HomeDetailsViewController: UIViewController {
         //        didChangeCountry()
         getCategory()
         createAddAdvsButton()
-        searchTextField.setPlaceHolderColor(.white)
+        searchTextField.setPlaceHolderColor(.black)
         loadingIndecator.color = UIColor(named: "#0093F5") ?? .yellow
         loadingIndecator.type = .ballPulseSync
+        
+        mainCategoryCollectionView.isHidden = isComeFromMainCategory
+        DispatchQueue.main.async{[weak self] in
+            guard let self else {return}
+            if isComeFromMainCategory {
+                mainCategoryCVHeightConstraint.constant = 0
+                if !isComeFromCategory {
+                    getSubCategory()
+                }
+                self.resetProducts()
+                self.getData()
+                self.getFeatureData()
+            }else {
+                mainCategoryCVHeightConstraint.constant = 45
+            }
+        }
         
     }
     
@@ -615,28 +637,28 @@ extension HomeDetailsViewController: UICollectionViewDataSource, UICollectionVie
             }
             return cell
         }else if collectionView == mainCategoryCollectionView{
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cat-cell", for: indexPath) as! MainCategoryCollectionViewCell
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HomeDetailsMainCategoryCell", for: indexPath) as! HomeDetailsMainCategoryCell
             cell.setData(category: categories[indexPath.row])
             if indexPath.item == selectedCategoryIndex {
                 if !isComeFromCategory{
                     self.setupIfSelectedMainCategoryCell(for: indexPath.item)
                 }
-                if !comeToMoreAds {
-                    cell.dropDwonImage.isHidden = false
-                    UIView.animate(withDuration: 0.3, delay: 0.0, options: UIView.AnimationOptions.curveEaseIn, animations: {
-                        
-                        // HERE
-                        cell.transform = CGAffineTransform.identity.scaledBy(x: 1.1, y: 1.1) // Scale your image
-                        
-                    }) { (finished) in
-                        UIView.animate(withDuration: 0.6, animations: {
-                            
-                            cell.transform = CGAffineTransform.identity
-                            // undo in 1 seconds
-                            
-                        })
-                    }
-                }
+//                if !comeToMoreAds {
+//                    cell.dropDwonImage.isHidden = false
+//                    UIView.animate(withDuration: 0.3, delay: 0.0, options: UIView.AnimationOptions.curveEaseIn, animations: {
+//                        
+//                        // HERE
+//                        cell.transform = CGAffineTransform.identity.scaledBy(x: 1.1, y: 1.1) // Scale your image
+//                        
+//                    }) { (finished) in
+//                        UIView.animate(withDuration: 0.6, animations: {
+//                            
+//                            cell.transform = CGAffineTransform.identity
+//                            // undo in 1 seconds
+//                            
+//                        })
+//                    }
+//                }
             }
             return cell
         }else if collectionView == FeaturesCollectionView {
@@ -663,7 +685,7 @@ extension HomeDetailsViewController: UICollectionViewDataSource, UICollectionVie
                 return CGSize(width: (UIScreen.main.bounds.width/2)-15, height: 280)
             }
         }else if collectionView == mainCategoryCollectionView {
-            return CGSize(width: 110, height: 125)
+            return CGSize(width: 108, height: 35)
         }else if collectionView == FeaturesCollectionView {
              return CGSize(width: (UIScreen.main.bounds.width) - (UIScreen.main.bounds.width*0.45) , height: 280)
 

@@ -372,6 +372,7 @@ class HomeViewController: UIViewController {
         homeDetailsVC.comeToMoreAds = true
       //  homeDetailsVC.selectedCategoryIndex = 0
 //        homeDetailsVC.categoryId = categories[0].id ?? 0
+        homeDetailsVC.mainCategory = "Featured ads"
         homeDetailsVC.isComeToFeatureAds = true
         homeDetailsVC.modalPresentationStyle = .fullScreen
         navigationController?.pushViewController(homeDetailsVC, animated: true)
@@ -611,7 +612,9 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
             print(selectedIndex)
             let homeDetailsVC = UIStoryboard(name: MAIN_STORYBOARD, bundle: nil).instantiateViewController(withIdentifier: "homeDetails") as! HomeDetailsViewController
             homeDetailsVC.selectedCategoryIndex = selectedIndex
+            homeDetailsVC.isComeFromMainCategory = true
             homeDetailsVC.categoryId = categories[selectedIndex].id ?? 0
+            homeDetailsVC.mainCategory = MOLHLanguage.isArabic() ?  categories[selectedIndex].nameAr ?? "" : categories[selectedIndex].nameEn ?? ""
             homeDetailsVC.modalPresentationStyle = .fullScreen
             navigationController?.pushViewController(homeDetailsVC, animated: true)
             
