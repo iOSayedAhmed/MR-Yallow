@@ -177,6 +177,16 @@ class AddAdvsVC: UIViewController , PickupMediaPopupVCDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if !StaticFunctions.isLogin() || AppDelegate.currentUser.isStore ?? false{
+            
+            StaticFunctions.createInfoAlert(msg: "Please Register as an organization or as a professional to be able to add an advertisement")
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {[weak self] in
+                guard let self else {return}
+                let addStoreVC = CreateStoreVC.instantiate()
+                navigationController?.pushViewController(addStoreVC, animated: true)
+            }
+        }
         cityId = AppDelegate.currentUser.cityId.safeValue
         regionId = AppDelegate.currentUser.regionId.safeValue
         setupView()
@@ -208,9 +218,6 @@ class AddAdvsVC: UIViewController , PickupMediaPopupVCDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        if !StaticFunctions.isLogin(){
-            basicPresentation(storyName: Auth_STORYBOARD, segueId: "login_nav")
-        }
         self.navigationController?.navigationBar.isHidden = true
         self.navigationController?.navigationItem.backBarButtonItem?.tintColor = .white
         tabBarController?.tabBar.isHidden = true

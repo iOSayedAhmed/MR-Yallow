@@ -35,6 +35,12 @@ class StoresVC: UIViewController {
     @IBOutlet weak var searchTextField: UITextField!
     
     @IBOutlet weak var createStoreView: UIView!
+    
+    @IBOutlet weak var tourGuideView: UIView!
+    @IBOutlet weak var categoriesCollectionView: UICollectionView!
+    
+    @IBOutlet weak var tourGuideButton: UIButton!
+    
     @IBOutlet weak var pagerView: FSPagerView! {
         didSet {
             self.pagerView.register(FSPagerViewCell.self, forCellWithReuseIdentifier: "cell")
@@ -56,19 +62,25 @@ class StoresVC: UIViewController {
     var normalSliderList = [NormalSlider]()
     let badgeLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 15, height: 15))
 
+    var categories = [Category]()
+
     //MARK: - App Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-//        CollectionView.isScrollEnabled = false
-        NotificationCenter.default.post(name: NSNotification.Name("ShowTabBar"), object: nil)
-//        NotificationCenter.default.addObserver(self, selector: #selector(changeCountryName(_:)), name: NSNotification.Name("changeCountryName"), object: nil)
+
+        tourGuideView.layer.cornerRadius = tourGuideView.frame.width / 2
+        tourGuideButton.layer.cornerRadius = tourGuideButton.frame.width / 2
+        categoriesCollectionView.semanticContentAttribute = .forceRightToLeft
         NotificationCenter.default.addObserver(self, selector: #selector(countryDidChange), name: .countryDidChange, object: nil)
 
+        categoriesCollectionView.delegate = self
+        categoriesCollectionView.dataSource = self
         searchTextField.delegate = self
         pagerView.delegate = self
         pagerView.dataSource = self
         getStores()
         getSliders()
+        getCategory()
         configureNavButtons()
         customNavView.cornerRadius = 30
         customNavView.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMinXMaxYCorner]
@@ -235,6 +247,10 @@ class StoresVC: UIViewController {
         
     }
     
+    @IBAction func didTapTourGuide(_ sender: UIButton) {
+    }
+    
+    
 }
 
 //MARK: UICollectionView DataSource
@@ -243,25 +259,44 @@ extension StoresVC:UICollectionViewDelegate,UICollectionViewDataSource,UICollect
     
     
      func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        
-         return storesList.count
+         if collectionView == categoriesCollectionView {
+             return categories.count
+         }else {
+             return storesList.count
+         }
+         
     }
     
      func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "StoreCollectionViewCell", for: indexPath) as? StoreCollectionViewCell else {return UICollectionViewCell()}
-         cell.setData(store: storesList[indexPath.item])
-        return cell
+         if collectionView == categoriesCollectionView {
+             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "oragnizationCategoryCell", for: indexPath) as? OrganizationMainCategoriesCell else {return UICollectionViewCell()}
+             cell.setData(category: categories[indexPath.row])
+             return cell
+         }else  {
+             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "StoreCollectionViewCell", for: indexPath) as? StoreCollectionViewCell else {return UICollectionViewCell()}
+             cell.setData(store: storesList[indexPath.item])
+            return cell
+         }
+        
     }
     
      func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: (collectionView.bounds.width/2)-10, height: 175)
+         if collectionView == categoriesCollectionView {
+             return CGSize(width: 108, height: 35)
+         }else {
+             return CGSize(width: (collectionView.bounds.width/2)-10, height: 175)
+         }
     }
     
-     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-         let storeProfile = StoreProfileVC.instantiate()
-         storeProfile.otherUserId = storesList[indexPath.item].userID ?? 0
-         storeProfile.countryId = storesList[indexPath.item].countryID ?? 6
-         navigationController?.pushViewController(storeProfile, animated: true)
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if collectionView == categoriesCollectionView {
+            
+        }else {
+            let storeProfile = StoreProfileVC.instantiate()
+            storeProfile.otherUserId = storesList[indexPath.item].userID ?? 0
+            storeProfile.countryId = storesList[indexPath.item].countryID ?? 6
+            navigationController?.pushViewController(storeProfile, animated: true)
+        }
     }
     
 }
@@ -410,3 +445,19 @@ extension StoresVC:UITextFieldDelegate{
 //        return WoofTabBarItem(title: "Commercial".localize, image: "storeIconGray", selectedImage: "storeButtonIcon")
 //    }
 //}
+
+extension StoresVC {
+    func getCategory(){
+        CategoryController.shared.getCategoories(completion: {[weak self]
+            categories, check, msg in
+            guard let self else {return}
+            self.categories = categories
+            self.categories.insert(Category(nameAr: "الكل", nameEn: "All", id: 9999, hasSubCat: 0), at: 0)
+            
+            self.categoriesCollectionView.reloadData()
+                self.categoriesCollectionView.selectItem(at: [0,0], animated: false, scrollPosition: .centeredHorizontally)
+            
+            
+        })
+    }
+}

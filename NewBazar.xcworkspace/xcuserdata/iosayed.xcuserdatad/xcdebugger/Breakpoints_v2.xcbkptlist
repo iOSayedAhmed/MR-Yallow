@@ -3467,103 +3467,13 @@
             filePath = "Hunter/ViewControllers/Add Ad/AddAdvsVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1385"
-            endingLineNumber = "1385"
+            startingLineNumber = "1392"
+            endingLineNumber = "1392"
             landmarkName = "didTapUploadNewAds()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "BEC415F1-0A44-4FAE-86D5-BF6BB0DEAAE1 - e91e63f26976cefc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.navigateToMyAdsPage() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1388"
-                  endingLineNumber = "1388"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "BEC415F1-0A44-4FAE-86D5-BF6BB0DEAAE1 - c08456db88cf2231"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapUploadNewAds() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1386"
-                  endingLineNumber = "1386"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  uuid = "BEC415F1-0A44-4FAE-86D5-BF6BB0DEAAE1 - e31bfa619098d579"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "protocol witness for NewBazar.SuccessAddingVCDelegate.didTapUploadNewAds() -&gt; () in conformance NewBazar.AddAdvsVC : NewBazar.SuccessAddingVCDelegate in NewBazar"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1386"
-                  endingLineNumber = "1386"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  uuid = "BEC415F1-0A44-4FAE-86D5-BF6BB0DEAAE1 - c08456db88cf2231"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapUploadNewAds() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1386"
-                  endingLineNumber = "1386"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  uuid = "BEC415F1-0A44-4FAE-86D5-BF6BB0DEAAE1 - e98230828f70b0b3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapUploadNewAds() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1386"
-                  endingLineNumber = "1386"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  uuid = "BEC415F1-0A44-4FAE-86D5-BF6BB0DEAAE1 - e98230828f70b054"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapUploadNewAds() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1385"
-                  endingLineNumber = "1385"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  uuid = "BEC415F1-0A44-4FAE-86D5-BF6BB0DEAAE1 - cc2f62f81570b88d"
+                  uuid = "BEC415F1-0A44-4FAE-86D5-BF6BB0DEAAE1 - cc2f62f81570b9a6"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -3573,8 +3483,23 @@
                   urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1385"
-                  endingLineNumber = "1385"
+                  startingLineNumber = "1392"
+                  endingLineNumber = "1392"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "BEC415F1-0A44-4FAE-86D5-BF6BB0DEAAE1 - cc2f62f81570b9a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewBazar.AddAdvsVC.didTapUploadNewAds() -&gt; ()"
+                  moduleName = "NewBazar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1392"
+                  endingLineNumber = "1392"
                   offsetFromSymbolStart = "24">
                </Location>
             </Locations>
@@ -3590,103 +3515,13 @@
             filePath = "Hunter/ViewControllers/Add Ad/AddAdvsVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1329"
-            endingLineNumber = "1329"
+            startingLineNumber = "1336"
+            endingLineNumber = "1336"
             landmarkName = "didTapNormalAd()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "0A93F96A-1DDF-4106-9D8F-096B971854A2 - bedce8a6fb4baf74"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1330"
-                  endingLineNumber = "1330"
-                  offsetFromSymbolStart = "814">
-               </Location>
-               <Location
-                  uuid = "0A93F96A-1DDF-4106-9D8F-096B971854A2 - bedce8a6fb4baf74"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1330"
-                  endingLineNumber = "1330"
-                  offsetFromSymbolStart = "91">
-               </Location>
-               <Location
-                  uuid = "0A93F96A-1DDF-4106-9D8F-096B971854A2 - bedce8a6fb4baf74"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1330"
-                  endingLineNumber = "1330"
-                  offsetFromSymbolStart = "80">
-               </Location>
-               <Location
-                  uuid = "0A93F96A-1DDF-4106-9D8F-096B971854A2 - bedce8a6fb4baf74"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1330"
-                  endingLineNumber = "1330"
-                  offsetFromSymbolStart = "100">
-               </Location>
-               <Location
-                  uuid = "0A93F96A-1DDF-4106-9D8F-096B971854A2 - 97da8efffcf43cf6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1330"
-                  endingLineNumber = "1330"
-                  offsetFromSymbolStart = "100">
-               </Location>
-               <Location
-                  uuid = "0A93F96A-1DDF-4106-9D8F-096B971854A2 - 97da8efffcf43c91"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1329"
-                  endingLineNumber = "1329"
-                  offsetFromSymbolStart = "100">
-               </Location>
-               <Location
-                  uuid = "0A93F96A-1DDF-4106-9D8F-096B971854A2 - b277dc8566f404d8"
+                  uuid = "0A93F96A-1DDF-4106-9D8F-096B971854A2 - b277dc8566f407c3"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -3696,8 +3531,23 @@
                   urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1329"
-                  endingLineNumber = "1329"
+                  startingLineNumber = "1336"
+                  endingLineNumber = "1336"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "0A93F96A-1DDF-4106-9D8F-096B971854A2 - b277dc8566f407c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
+                  moduleName = "NewBazar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1336"
+                  endingLineNumber = "1336"
                   offsetFromSymbolStart = "100">
                </Location>
             </Locations>
@@ -3713,103 +3563,13 @@
             filePath = "Hunter/ViewControllers/Add Ad/AddAdvsVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1330"
-            endingLineNumber = "1330"
+            startingLineNumber = "1337"
+            endingLineNumber = "1337"
             landmarkName = "didTapNormalAd()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "40F4399F-7A84-4AB9-B3A9-7E8450BBFC8D - bedce8a6fb4baf55"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1331"
-                  endingLineNumber = "1331"
-                  offsetFromSymbolStart = "921">
-               </Location>
-               <Location
-                  uuid = "40F4399F-7A84-4AB9-B3A9-7E8450BBFC8D - bedce8a6fb4baf55"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1331"
-                  endingLineNumber = "1331"
-                  offsetFromSymbolStart = "470">
-               </Location>
-               <Location
-                  uuid = "40F4399F-7A84-4AB9-B3A9-7E8450BBFC8D - bedce8a6fb4baf55"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1331"
-                  endingLineNumber = "1331"
-                  offsetFromSymbolStart = "255">
-               </Location>
-               <Location
-                  uuid = "40F4399F-7A84-4AB9-B3A9-7E8450BBFC8D - bedce8a6fb4baf55"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1331"
-                  endingLineNumber = "1331"
-                  offsetFromSymbolStart = "400">
-               </Location>
-               <Location
-                  uuid = "40F4399F-7A84-4AB9-B3A9-7E8450BBFC8D - 97da8efffcf43cd7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1331"
-                  endingLineNumber = "1331"
-                  offsetFromSymbolStart = "400">
-               </Location>
-               <Location
-                  uuid = "40F4399F-7A84-4AB9-B3A9-7E8450BBFC8D - 97da8efffcf43cf6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1330"
-                  endingLineNumber = "1330"
-                  offsetFromSymbolStart = "400">
-               </Location>
-               <Location
-                  uuid = "40F4399F-7A84-4AB9-B3A9-7E8450BBFC8D - b277dc8566f40439"
+                  uuid = "40F4399F-7A84-4AB9-B3A9-7E8450BBFC8D - b277dc8566f40701"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -3819,8 +3579,23 @@
                   urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1330"
-                  endingLineNumber = "1330"
+                  startingLineNumber = "1338"
+                  endingLineNumber = "1338"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "40F4399F-7A84-4AB9-B3A9-7E8450BBFC8D - b277dc8566f40720"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
+                  moduleName = "NewBazar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1337"
+                  endingLineNumber = "1337"
                   offsetFromSymbolStart = "400">
                </Location>
             </Locations>
@@ -3836,103 +3611,13 @@
             filePath = "Hunter/ViewControllers/Add Ad/AddAdvsVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1370"
-            endingLineNumber = "1370"
+            startingLineNumber = "1377"
+            endingLineNumber = "1377"
             landmarkName = "passPaymentStatus(from:invoiceId:invoiceURL:prodId:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "26D73063-6329-4F65-8A28-B1B66677457E - 2e524d6be8978003"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1371"
-                  endingLineNumber = "1371"
-                  offsetFromSymbolStart = "750">
-               </Location>
-               <Location
-                  uuid = "26D73063-6329-4F65-8A28-B1B66677457E - 2e524d6be8978003"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1371"
-                  endingLineNumber = "1371"
-                  offsetFromSymbolStart = "534">
-               </Location>
-               <Location
-                  uuid = "26D73063-6329-4F65-8A28-B1B66677457E - 2e524d6be8978003"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1371"
-                  endingLineNumber = "1371"
-                  offsetFromSymbolStart = "352">
-               </Location>
-               <Location
-                  uuid = "26D73063-6329-4F65-8A28-B1B66677457E - 2e524d6be8978003"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1371"
-                  endingLineNumber = "1371"
-                  offsetFromSymbolStart = "428">
-               </Location>
-               <Location
-                  uuid = "26D73063-6329-4F65-8A28-B1B66677457E - 7542b32ef281e81"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1371"
-                  endingLineNumber = "1371"
-                  offsetFromSymbolStart = "428">
-               </Location>
-               <Location
-                  uuid = "26D73063-6329-4F65-8A28-B1B66677457E - 7542b32ef281e60"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1370"
-                  endingLineNumber = "1370"
-                  offsetFromSymbolStart = "428">
-               </Location>
-               <Location
-                  uuid = "26D73063-6329-4F65-8A28-B1B66677457E - 22f97948752826df"
+                  uuid = "26D73063-6329-4F65-8A28-B1B66677457E - 22f97948752827b6"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -3942,8 +3627,23 @@
                   urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1370"
-                  endingLineNumber = "1370"
+                  startingLineNumber = "1377"
+                  endingLineNumber = "1377"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "26D73063-6329-4F65-8A28-B1B66677457E - 22f97948752827b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
+                  moduleName = "NewBazar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1377"
+                  endingLineNumber = "1377"
                   offsetFromSymbolStart = "428">
                </Location>
             </Locations>
@@ -3959,103 +3659,13 @@
             filePath = "Hunter/ViewControllers/Add Ad/AddAdvsVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1338"
-            endingLineNumber = "1338"
+            startingLineNumber = "1345"
+            endingLineNumber = "1345"
             landmarkName = "didTapNormalAd()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "6B32810D-D3E9-4CFB-B8CF-DABB42FE3876 - bedce8a6fb4bae5d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1339"
-                  endingLineNumber = "1339"
-                  offsetFromSymbolStart = "1407">
-               </Location>
-               <Location
-                  uuid = "6B32810D-D3E9-4CFB-B8CF-DABB42FE3876 - bedce8a6fb4bae5d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1339"
-                  endingLineNumber = "1339"
-                  offsetFromSymbolStart = "1373">
-               </Location>
-               <Location
-                  uuid = "6B32810D-D3E9-4CFB-B8CF-DABB42FE3876 - bedce8a6fb4ba9c0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1342"
-                  endingLineNumber = "1342"
-                  offsetFromSymbolStart = "439">
-               </Location>
-               <Location
-                  uuid = "6B32810D-D3E9-4CFB-B8CF-DABB42FE3876 - bedce8a6fb4bae5d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1339"
-                  endingLineNumber = "1339"
-                  offsetFromSymbolStart = "1160">
-               </Location>
-               <Location
-                  uuid = "6B32810D-D3E9-4CFB-B8CF-DABB42FE3876 - 97da8efffcf43fdf"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1339"
-                  endingLineNumber = "1339"
-                  offsetFromSymbolStart = "1160">
-               </Location>
-               <Location
-                  uuid = "6B32810D-D3E9-4CFB-B8CF-DABB42FE3876 - 97da8efffcf43ffe"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1338"
-                  endingLineNumber = "1338"
-                  offsetFromSymbolStart = "1160">
-               </Location>
-               <Location
-                  uuid = "6B32810D-D3E9-4CFB-B8CF-DABB42FE3876 - b277dc8566f40701"
+                  uuid = "6B32810D-D3E9-4CFB-B8CF-DABB42FE3876 - b277dc8566f407c3"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -4065,8 +3675,23 @@
                   urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1338"
-                  endingLineNumber = "1338"
+                  startingLineNumber = "1336"
+                  endingLineNumber = "1336"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "6B32810D-D3E9-4CFB-B8CF-DABB42FE3876 - b277dc8566f40628"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
+                  moduleName = "NewBazar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1345"
+                  endingLineNumber = "1345"
                   offsetFromSymbolStart = "1160">
                </Location>
             </Locations>
@@ -4082,117 +3707,10 @@
             filePath = "Hunter/ViewControllers/Add Ad/AddAdvsVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1335"
-            endingLineNumber = "1335"
+            startingLineNumber = "1342"
+            endingLineNumber = "1342"
             landmarkName = "didTapNormalAd()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "BCC25AF3-DFB2-4437-B445-5A92B5EF748E - bedce8a6fb4bae3e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1336"
-                  endingLineNumber = "1336"
-                  offsetFromSymbolStart = "1373">
-               </Location>
-               <Location
-                  uuid = "BCC25AF3-DFB2-4437-B445-5A92B5EF748E - bedce8a6fb4bae3e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1336"
-                  endingLineNumber = "1336"
-                  offsetFromSymbolStart = "1128">
-               </Location>
-               <Location
-                  uuid = "BCC25AF3-DFB2-4437-B445-5A92B5EF748E - bedce8a6fb4bae1f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1337"
-                  endingLineNumber = "1337"
-                  offsetFromSymbolStart = "415">
-               </Location>
-               <Location
-                  uuid = "BCC25AF3-DFB2-4437-B445-5A92B5EF748E - bedce8a6fb4bae3e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1336"
-                  endingLineNumber = "1336"
-                  offsetFromSymbolStart = "940">
-               </Location>
-               <Location
-                  uuid = "BCC25AF3-DFB2-4437-B445-5A92B5EF748E - 97da8efffcf43fb8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1336"
-                  endingLineNumber = "1336"
-                  offsetFromSymbolStart = "940">
-               </Location>
-               <Location
-                  uuid = "BCC25AF3-DFB2-4437-B445-5A92B5EF748E - 97da8efffcf43c5b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1335"
-                  endingLineNumber = "1335"
-                  offsetFromSymbolStart = "940">
-               </Location>
-               <Location
-                  uuid = "BCC25AF3-DFB2-4437-B445-5A92B5EF748E - b277dc8566f407e2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.didTapNormalAd() -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1335"
-                  endingLineNumber = "1335"
-                  offsetFromSymbolStart = "940">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -4205,88 +3723,13 @@
             filePath = "Hunter/ViewControllers/Add Ad/AddAdvsVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "677"
-            endingLineNumber = "677"
+            startingLineNumber = "684"
+            endingLineNumber = "684"
             landmarkName = "createAds(isFeatured:normalPaid:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "C4E5C396-3856-44B9-9792-FAACBC3EFACD - 5cc4d22fb490ce3f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Alamofire.DataResponse&lt;NewBazar.AddAdvsModel, Alamofire.AFError&gt;) -&gt; () in NewBazar.AddAdvsVC.createAds(isFeatured: Swift.Int, normalPaid: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "677"
-                  endingLineNumber = "677"
-                  offsetFromSymbolStart = "4410">
-               </Location>
-               <Location
-                  uuid = "C4E5C396-3856-44B9-9792-FAACBC3EFACD - 5cc4d22fb490ce3f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Alamofire.DataResponse&lt;NewBazar.AddAdvsModel, Alamofire.AFError&gt;) -&gt; () in NewBazar.AddAdvsVC.createAds(isFeatured: Swift.Int, normalPaid: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "677"
-                  endingLineNumber = "677"
-                  offsetFromSymbolStart = "4405">
-               </Location>
-               <Location
-                  uuid = "C4E5C396-3856-44B9-9792-FAACBC3EFACD - 5cc4d22fb490ce3f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Alamofire.DataResponse&lt;NewBazar.AddAdvsModel, Alamofire.AFError&gt;) -&gt; () in NewBazar.AddAdvsVC.createAds(isFeatured: Swift.Int, normalPaid: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "677"
-                  endingLineNumber = "677"
-                  offsetFromSymbolStart = "1588">
-               </Location>
-               <Location
-                  uuid = "C4E5C396-3856-44B9-9792-FAACBC3EFACD - 5cc4d22fb490ce3f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Alamofire.DataResponse&lt;NewBazar.AddAdvsModel, Alamofire.AFError&gt;) -&gt; () in NewBazar.AddAdvsVC.createAds(isFeatured: Swift.Int, normalPaid: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "677"
-                  endingLineNumber = "677"
-                  offsetFromSymbolStart = "3684">
-               </Location>
-               <Location
-                  uuid = "C4E5C396-3856-44B9-9792-FAACBC3EFACD - 75c2b476b32f5db1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Alamofire.DataResponse&lt;NewBazar.AddAdvsModel, Alamofire.AFError&gt;) -&gt; () in NewBazar.AddAdvsVC.createAds(isFeatured: Swift.Int, normalPaid: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "677"
-                  endingLineNumber = "677"
-                  offsetFromSymbolStart = "3584">
-               </Location>
-               <Location
-                  uuid = "C4E5C396-3856-44B9-9792-FAACBC3EFACD - 506fe60c292f55f8"
+                  uuid = "C4E5C396-3856-44B9-9792-FAACBC3EFACD - 506fe60c292f56c3"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -4296,8 +3739,23 @@
                   urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "677"
-                  endingLineNumber = "677"
+                  startingLineNumber = "684"
+                  endingLineNumber = "684"
+                  offsetFromSymbolStart = "3588">
+               </Location>
+               <Location
+                  uuid = "C4E5C396-3856-44B9-9792-FAACBC3EFACD - 506fe60c292f56c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;NewBazar.AddAdvsModel, Alamofire.AFError&gt;) -&gt; () in NewBazar.AddAdvsVC.createAds(isFeatured: Swift.Int, normalPaid: Swift.Int) -&gt; ()"
+                  moduleName = "NewBazar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "684"
+                  endingLineNumber = "684"
                   offsetFromSymbolStart = "3584">
                </Location>
             </Locations>
@@ -4313,103 +3771,13 @@
             filePath = "Hunter/ViewControllers/Add Ad/AddAdvsVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1372"
-            endingLineNumber = "1372"
+            startingLineNumber = "1379"
+            endingLineNumber = "1379"
             landmarkName = "passPaymentStatus(from:invoiceId:invoiceURL:prodId:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "FCCE2F8C-D1D9-4852-94C5-D240DEA53BD7 - 2e524d6be897807d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1373"
-                  endingLineNumber = "1373"
-                  offsetFromSymbolStart = "782">
-               </Location>
-               <Location
-                  uuid = "FCCE2F8C-D1D9-4852-94C5-D240DEA53BD7 - 2e524d6be897807d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1373"
-                  endingLineNumber = "1373"
-                  offsetFromSymbolStart = "583">
-               </Location>
-               <Location
-                  uuid = "FCCE2F8C-D1D9-4852-94C5-D240DEA53BD7 - 2e524d6be897807d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1373"
-                  endingLineNumber = "1373"
-                  offsetFromSymbolStart = "160">
-               </Location>
-               <Location
-                  uuid = "FCCE2F8C-D1D9-4852-94C5-D240DEA53BD7 - 2e524d6be897807d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1373"
-                  endingLineNumber = "1373"
-                  offsetFromSymbolStart = "468">
-               </Location>
-               <Location
-                  uuid = "FCCE2F8C-D1D9-4852-94C5-D240DEA53BD7 - 7542b32ef281ec3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1373"
-                  endingLineNumber = "1373"
-                  offsetFromSymbolStart = "468">
-               </Location>
-               <Location
-                  uuid = "FCCE2F8C-D1D9-4852-94C5-D240DEA53BD7 - 7542b32ef281ea2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1372"
-                  endingLineNumber = "1372"
-                  offsetFromSymbolStart = "468">
-               </Location>
-               <Location
-                  uuid = "FCCE2F8C-D1D9-4852-94C5-D240DEA53BD7 - 22f9794875282719"
+                  uuid = "FCCE2F8C-D1D9-4852-94C5-D240DEA53BD7 - 22f97948752827f0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -4419,8 +3787,23 @@
                   urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1372"
-                  endingLineNumber = "1372"
+                  startingLineNumber = "1379"
+                  endingLineNumber = "1379"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "FCCE2F8C-D1D9-4852-94C5-D240DEA53BD7 - 22f97948752827f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
+                  moduleName = "NewBazar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1379"
+                  endingLineNumber = "1379"
                   offsetFromSymbolStart = "468">
                </Location>
             </Locations>
@@ -4436,193 +3819,13 @@
             filePath = "Hunter/ViewControllers/Add Ad/AddAdvsVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1366"
-            endingLineNumber = "1366"
+            startingLineNumber = "1373"
+            endingLineNumber = "1373"
             landmarkName = "passPaymentStatus(from:invoiceId:invoiceURL:prodId:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "674D3927-2CDD-4EFC-AA45-C39A2D2AD7F6 - 2e524d6be8978f87"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1367"
-                  endingLineNumber = "1367"
-                  offsetFromSymbolStart = "309">
-               </Location>
-               <Location
-                  uuid = "674D3927-2CDD-4EFC-AA45-C39A2D2AD7F6 - 3420d16568517bab"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1367"
-                  endingLineNumber = "1367"
-                  offsetFromSymbolStart = "121">
-               </Location>
-               <Location
-                  uuid = "674D3927-2CDD-4EFC-AA45-C39A2D2AD7F6 - 2e524d6be8978f87"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1367"
-                  endingLineNumber = "1367"
-                  offsetFromSymbolStart = "155">
-               </Location>
-               <Location
-                  uuid = "674D3927-2CDD-4EFC-AA45-C39A2D2AD7F6 - 2e524d6be8978f87"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1367"
-                  endingLineNumber = "1367"
-                  offsetFromSymbolStart = "26">
-               </Location>
-               <Location
-                  uuid = "674D3927-2CDD-4EFC-AA45-C39A2D2AD7F6 - cffd9a78b391fd34"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "protocol witness for NewBazar.PayingDelegate.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; () in conformance NewBazar.AddAdvsVC : NewBazar.PayingDelegate in NewBazar"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1367"
-                  endingLineNumber = "1367"
-                  offsetFromSymbolStart = "75">
-               </Location>
-               <Location
-                  uuid = "674D3927-2CDD-4EFC-AA45-C39A2D2AD7F6 - 3420d16568517bab"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1367"
-                  endingLineNumber = "1367"
-                  offsetFromSymbolStart = "112">
-               </Location>
-               <Location
-                  uuid = "674D3927-2CDD-4EFC-AA45-C39A2D2AD7F6 - 2e524d6be8978f87"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/HunterApp/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1367"
-                  endingLineNumber = "1367"
-                  offsetFromSymbolStart = "96">
-               </Location>
-               <Location
-                  uuid = "674D3927-2CDD-4EFC-AA45-C39A2D2AD7F6 - 1d26b73c6feeea29"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1367"
-                  endingLineNumber = "1367"
-                  offsetFromSymbolStart = "112">
-               </Location>
-               <Location
-                  uuid = "674D3927-2CDD-4EFC-AA45-C39A2D2AD7F6 - 7542b32ef281e05"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1367"
-                  endingLineNumber = "1367"
-                  offsetFromSymbolStart = "96">
-               </Location>
-               <Location
-                  uuid = "674D3927-2CDD-4EFC-AA45-C39A2D2AD7F6 - 1d26b73c6feee9c8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1366"
-                  endingLineNumber = "1366"
-                  offsetFromSymbolStart = "112">
-               </Location>
-               <Location
-                  uuid = "674D3927-2CDD-4EFC-AA45-C39A2D2AD7F6 - 7542b32ef281de4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/NewBazar/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1366"
-                  endingLineNumber = "1366"
-                  offsetFromSymbolStart = "96">
-               </Location>
-               <Location
-                  uuid = "674D3927-2CDD-4EFC-AA45-C39A2D2AD7F6 - 388be546f5eed20f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
-                  moduleName = "NewBazar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1366"
-                  endingLineNumber = "1366"
-                  offsetFromSymbolStart = "112">
-               </Location>
-               <Location
-                  uuid = "674D3927-2CDD-4EFC-AA45-C39A2D2AD7F6 - 22f9794875282623"
+                  uuid = "674D3927-2CDD-4EFC-AA45-C39A2D2AD7F6 - 22f979487528273a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -4632,8 +3835,38 @@
                   urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1366"
-                  endingLineNumber = "1366"
+                  startingLineNumber = "1373"
+                  endingLineNumber = "1373"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "674D3927-2CDD-4EFC-AA45-C39A2D2AD7F6 - 388be546f5eed316"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
+                  moduleName = "NewBazar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1373"
+                  endingLineNumber = "1373"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "674D3927-2CDD-4EFC-AA45-C39A2D2AD7F6 - 22f979487528273a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;NewBazar.CallBackModel&gt;, Swift.Int, Swift.String) -&gt; () in NewBazar.AddAdvsVC.passPaymentStatus(from: Swift.String, invoiceId: Swift.String, invoiceURL: Swift.String, prodId: Swift.Int) -&gt; ()"
+                  moduleName = "NewBazar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosayed/Desktop/MR%20Yallow/Hunter/ViewControllers/Add%20Ad/AddAdvsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1373"
+                  endingLineNumber = "1373"
                   offsetFromSymbolStart = "96">
                </Location>
             </Locations>
