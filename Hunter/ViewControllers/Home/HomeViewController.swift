@@ -403,6 +403,14 @@ class HomeViewController: UIViewController {
     
     @IBAction func didTapTourGuideButton(_ sender: UIButton) {
         print("gogogo")
+        if let tabBarController = self.tabBarController, let navController = tabBarController.viewControllers?[1] as? UINavigationController {
+                
+                if let destinationVC = navController.viewControllers.first as? CategoryViewController {
+                    // Pass the data
+                    destinationVC.isTourGuide = true
+                    tabBarController.selectedIndex = 1
+                }
+            }
         tabBarController?.selectedIndex = 1
     }
     

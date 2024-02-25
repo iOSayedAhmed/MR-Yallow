@@ -23,23 +23,27 @@ class CategoryViewController: UIViewController {
     var sideCatgeory = [Category]()
     var categoryIndex = 0
     var cities = [Country]()
+    var isTourGuide = false
+    var animatedIndexPaths: Set<IndexPath> = []
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         NotificationCenter.default.post(name: NSNotification.Name("ShowTabBar"), object: nil)
         self.navigationItem.title = "Categories".localize
-        getCategory()
 //        getCities()
+        getCategory()
         sideCategoyCollectionView.semanticContentAttribute = .forceLeftToRight
-    }
+        }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        NotificationCenter.default.post(name: NSNotification.Name("ShowTabBar"), object: nil)
+        
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        isTourGuide = false
     }
 }
 extension CategoryViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
@@ -129,9 +133,28 @@ extension CategoryViewController: UICollectionViewDelegate, UICollectionViewData
             
         }
     }
+    
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        // Check if we've already animated this cell
+        if !animatedIndexPaths.contains(indexPath) {
+            // Start with the cell fully out of view to the right
+            cell.transform = CGAffineTransform(translationX: collectionView.bounds.size.width, y: 0)
+            
+            // Animate the cell to slide in from the right to its normal position
+            UIView.animate(withDuration: 0.5, delay: 0.05 * Double(indexPath.row), options: [.curveEaseInOut], animations: {
+                cell.transform = CGAffineTransform.identity
+            }) { _ in
+                // Animation completed
+                self.animatedIndexPaths.insert(indexPath) // Mark this indexPath as animated
+            }
+        }
+    }
+
+
 }
 extension CategoryViewController{
     func getCategory(){
+        animatedIndexPaths.removeAll()
         CategoryController.shared.getCategoories(completion: {
             categories, check, msg in
             
@@ -139,12 +162,24 @@ extension CategoryViewController{
             if self.categories.count > 0{
                 print(categories)
                 self.categories.append(Category(nameAr: "مرشد سياحي", nameEn: "tour guide", id: 2, hasSubCat: 0))
-                self.categoryIndex = 0
-                self.getSubCategory()
+                if !self.isTourGuide {
+                    self.categoryIndex = 0
+                    self.getSubCategory()
+                }else {
+                    self.categoryIndex = self.categories.count - 1
+                    self.getCities()
+                }
+                
+               
             }
             self.listMainCategory.reloadData()
             
-            self.listMainCategory.selectItem(at: [0,0], animated: false, scrollPosition: .centeredVertically)
+            if !self.isTourGuide {
+                self.listMainCategory.selectItem(at: [0,0], animated: false, scrollPosition: .centeredVertically)
+            }else {
+                self.listMainCategory.selectItem(at: [0,(self.categories.count - 1)], animated: false, scrollPosition: .centeredVertically)
+            }
+            
             
             
         })
@@ -181,6 +216,9 @@ extension CategoryViewController{
             self.cities = [ Country(nameAr: AppDelegate.currentCountry.nameAr ?? "الكويت", nameEn:  AppDelegate.currentCountry.nameEn ?? "Kuwait", id: AppDelegate.currentCountry.id  ?? 6)]
             
         }
+        
+        self.sideCategoyCollectionView.isHidden = self.cities.count == 0 ?   true : false
+        
         DispatchQueue.main.async { [weak self]  in
             self?.sideCategoyCollectionView.reloadData()
         }

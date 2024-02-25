@@ -104,7 +104,7 @@ class CreateStoreVC: UIViewController {
     // MARK: - Methods
     
     private func configureView(){
-        self.title = "Add Store".localize
+        self.title = "Add Institution".localize
         self.navigationController?.navigationBar.tintColor = .white
         licenseImageView.isHidden = true
         self.countryNameButton.setTitle(self.countryName, for: .normal)

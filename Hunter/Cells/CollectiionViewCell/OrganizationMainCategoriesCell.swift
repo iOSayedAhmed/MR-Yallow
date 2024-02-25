@@ -23,6 +23,30 @@ class OrganizationMainCategoriesCell: UICollectionViewCell {
             }
           
         }
+    
+    
+    var isAnimated = false
+
+        override func prepareForReuse() {
+            super.prepareForReuse()
+            // Reset any properties that might have been altered
+            self.transform = CGAffineTransform.identity
+            isAnimated = false
+        }
+
+        func animateCellIfNeeded() {
+            guard !isAnimated else { return }
+
+            // Perform the animation
+            self.transform = CGAffineTransform(translationX: bounds.size.width, y: 0)
+            UIView.animate(withDuration: 0.8, delay: 0.05, options: [.curveEaseInOut], animations: {
+                self.transform = CGAffineTransform.identity
+            }, completion: nil)
+
+            isAnimated = true
+        }
+    
+    
     func setData(category: Category){
 //        if category.id == -1{
 //            categoryImageView.image = UIImage(named: "CategoryIcon")

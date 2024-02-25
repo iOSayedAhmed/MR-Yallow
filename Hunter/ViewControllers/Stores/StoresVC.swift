@@ -46,7 +46,8 @@ class StoresVC: UIViewController {
             self.pagerView.register(FSPagerViewCell.self, forCellWithReuseIdentifier: "cell")
         }
     }
-
+    
+    var animatedIndexPaths: Set<IndexPath> = []
     weak var delegate:StoresVCDelegate?
     let titleLabel = UILabel()
     var coountryVC = CounriesViewController()
@@ -271,6 +272,7 @@ extension StoresVC:UICollectionViewDelegate,UICollectionViewDataSource,UICollect
          if collectionView == categoriesCollectionView {
              guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "oragnizationCategoryCell", for: indexPath) as? OrganizationMainCategoriesCell else {return UICollectionViewCell()}
              cell.setData(category: categories[indexPath.row])
+             cell.animateCellIfNeeded()
              return cell
          }else  {
              guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "StoreCollectionViewCell", for: indexPath) as? StoreCollectionViewCell else {return UICollectionViewCell()}
@@ -298,6 +300,24 @@ extension StoresVC:UICollectionViewDelegate,UICollectionViewDataSource,UICollect
             navigationController?.pushViewController(storeProfile, animated: true)
         }
     }
+    
+//    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+//        // Check if we've already animated this cell
+//        if collectionView == categoriesCollectionView {
+//            if !animatedIndexPaths.contains(indexPath) {
+//                // Start with the cell fully out of view to the right
+//                cell.transform = CGAffineTransform(translationX: collectionView.bounds.size.width, y: 0)
+//                
+//                // Animate the cell to slide in from the right to its normal position
+//                UIView.animate(withDuration: 0.5, delay: 0.05 * Double(indexPath.row), options: [.curveEaseInOut], animations: {
+//                    cell.transform = CGAffineTransform.identity
+//                }) { _ in
+//                    // Animation completed
+//                    self.animatedIndexPaths.insert(indexPath) // Mark this indexPath as animated
+//                }
+//            }
+//        }
+//    }
     
 }
 
@@ -448,6 +468,7 @@ extension StoresVC:UITextFieldDelegate{
 
 extension StoresVC {
     func getCategory(){
+        animatedIndexPaths.removeAll()
         CategoryController.shared.getCategoories(completion: {[weak self]
             categories, check, msg in
             guard let self else {return}
