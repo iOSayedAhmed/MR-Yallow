@@ -6093,10 +6093,10 @@
         <image name="uploadAd" width="337" height="150"/>
         <image name="xmark.circle.fill" catalog="system" width="128" height="123"/>
         <namedColor name="#0093F5">
-            <color red="0.99607843137254903" green="0.59999999999999998" blue="0.0039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.99607843137254903" green="0.79607843137254897" blue="0.0039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="#0EBFB1">
-            <color red="0.99607843137254903" green="0.59999999999999998" blue="0.0039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.99607843137254903" green="0.79607843137254897" blue="0.0039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="#213970">
             <color red="0.1289999932050705" green="0.22400000691413879" blue="0.43900001049041748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

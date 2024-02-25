@@ -33,7 +33,9 @@
 "Ads relevant to your search result" = "الإعلانات ذات الصلة بنتيجة البحث الخاصة بك";
 "Most popular persons" = "الأشخاص الأكثر شعبية";
 "Persons relevant to your search result" = "الأشخاص ذوي الصلة بنتيجة البحث الخاصة بك";
-"Peoples" = "الأشخاص";
+"INDIVIDUALS" = "اصحاب المهن";
+"INSTITUTIONS" = "المؤسسات";
+"ADS" = "الإعلانات";
 "Search result" = "نتائج البحث";
 "Please type in anything you want to search for in MR Yallow" = "من فضلك اكتب اي شئ تريد البحث عنة في مستر يلو";
 "Most popular Stores" = "المتاجر المناسبة لنتيجة بحثك";

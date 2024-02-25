@@ -31,9 +31,9 @@ class ProfileNavigationController: UINavigationController {
     */
 
 }
-extension ProfileNavigationController:WoofTabBarControllerDataSource, WoofTabBarControllerDelegate {
-
-    func woofTabBarItem() -> WoofTabBarItem {
-        return WoofTabBarItem(title: "Profile".localize, image: "userProfile", selectedImage: "ProfileButtonIcon")
-    }
-}
+//extension ProfileNavigationController:WoofTabBarControllerDataSource, WoofTabBarControllerDelegate {
+//
+//    func woofTabBarItem() -> WoofTabBarItem {
+//        return WoofTabBarItem(title: "Profile".localize, image: "userProfile", selectedImage: "ProfileButtonIcon")
+//    }
+//}

@@ -12,10 +12,10 @@ import WoofTabBarController
 
 class HomeViewController: UIViewController {
     
-//    static func instantiate()->HomeViewController{
-//        let controller = UIStoryboard(name: MAIN_STORYBOARD, bundle: nil).instantiateViewController(withIdentifier:"home") as! HomeViewController
-//        return controller
-//    }
+    static func instantiate()->HomeViewController{
+        let controller = UIStoryboard(name: MAIN_STORYBOARD, bundle: nil).instantiateViewController(withIdentifier:"home") as! HomeViewController
+        return controller
+    }
 //    
     
     

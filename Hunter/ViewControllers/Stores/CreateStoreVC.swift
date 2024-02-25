@@ -40,6 +40,19 @@ class CreateStoreVC: UIViewController {
     @IBOutlet weak var countryFlagImage: UIImageView!
     @IBOutlet weak var contryMobileCode: UILabel!
     
+    @IBOutlet weak var regonBtn: UIButton!
+    @IBOutlet weak var cityBtn: UIButton!
+    @IBOutlet weak var mainCatBtn: UIButton!
+    @IBOutlet weak var subCatBtn: UIButton!
+    
+    @IBOutlet weak var institutionView: UIView!
+    @IBOutlet weak var institutionImage: UIImageView!
+    @IBOutlet weak var institutionButton: UIButton!
+    @IBOutlet weak var individualView: UIView!
+    @IBOutlet weak var individualImage: UIImageView!
+    @IBOutlet weak var individualButton: UIButton!
+    @IBOutlet weak var uploadLicenseView: UIView!
+    @IBOutlet weak var compunyNameLabel: UILabel!
     
     
     // MARK: - Properties
@@ -51,8 +64,21 @@ class CreateStoreVC: UIViewController {
     var isAgreeConditions = false
     var coountryVC = CounriesViewController()
     var countryId = AppDelegate.currentCountry.id ?? 6
+    var cityId = -1
+    var stateId = -1
     var countryName = MOLHLanguage.currentAppleLanguage() == "en" ? AppDelegate.currentCountry.nameEn : AppDelegate.currentCountry.nameAr
     var countryCode =  AppDelegate.currentCountry.code
+    // Main Category DropDwon
+    var mainCatID:Int = -1
+    var mainCatName:String = ""
+    var mainCatsList = [String]()
+    var mainCatsIDsList = [Int]()
+    
+    // Sub Category DropDwon
+    var subCatID:Int = -1
+    var subCatName:String = ""
+    var subCatsList = [String]()
+    var subCatsIDsList = [Int]()
     
     
     
@@ -61,6 +87,7 @@ class CreateStoreVC: UIViewController {
         
         NotificationCenter.default.post(name: NSNotification.Name("hideTabBar"), object: nil)
         configureView()
+        getMainCats()
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -75,10 +102,40 @@ class CreateStoreVC: UIViewController {
         self.navigationController?.navigationBar.tintColor = .white
         licenseImageView.isHidden = true
         self.countryNameButton.setTitle(self.countryName, for: .normal)
+        setUpInstitutionButton()
     }
     
-   
-
+    private func setUpInstitutionButton(){
+        institutionView.borderWidth = 1.2
+        institutionView.backgroundColor = UIColor(named: "#0EBFB1")
+        institutionView.borderColor = .white
+        institutionImage.isHidden = false
+        let image = UIImage(systemName: "checkmark.square.fill")?.withTintColor(.white, renderingMode: .alwaysOriginal)
+        institutionImage.image = image
+        individualView.borderWidth = 0.7
+        individualView.backgroundColor = .white
+        individualView.borderColor = UIColor(named: "#0EBFB1")
+        setImage(to: individualImage, from: "uncheckButtonImage2")
+        compunyNameLabel.text = "Company name".localiz()
+        uploadLicenseView.isHidden = false
+        
+    }
+    private func setUpIndividualButton(){
+        individualView.borderWidth = 1.2
+        individualView.backgroundColor = UIColor(named: "#0EBFB1")
+        individualView.borderColor = .white
+        individualImage.isHidden = false
+        let image = UIImage(systemName: "checkmark.square.fill")?.withTintColor(.white, renderingMode: .alwaysOriginal)
+        individualImage.image = image
+        institutionView.borderWidth = 0.7
+        institutionView.backgroundColor = .white
+        institutionView.borderColor = UIColor(named: "#0EBFB1")
+        setImage(to: institutionImage, from: "uncheckButtonImage2")
+        compunyNameLabel.text = "Full name".localiz()
+        uploadLicenseView.isHidden = true
+    }
+    
+    
     func validateFieldsAndShowFirstError(validations: [ValidationResult]) -> Bool {
         for validation in validations {
             switch validation {
@@ -91,7 +148,7 @@ class CreateStoreVC: UIViewController {
         }
         return true
     }
-
+    
     func validateTextField(_ textField: UITextField, errorMessage: String) -> ValidationResult {
         if let text = textField.text, !text.isEmpty {
             return .success
@@ -130,11 +187,11 @@ class CreateStoreVC: UIViewController {
     
     private  func validateEmail() -> ValidationResult {
         if isValidEmail(emailTextFiled.text!) {
-                return .success
-            } else {
-                
-                return .failure("Please enter a valid email".localize)
-            }
+            return .success
+        } else {
+            
+            return .failure("Please enter a valid email".localize)
+        }
         
     }
     private  func isValidEmail(_ email: String) -> Bool {
@@ -172,16 +229,16 @@ class CreateStoreVC: UIViewController {
                     print(error.errors )
                     
                     let keysToCheck: [KeyPath<StoresErrors, [String]? >] = [
-                            \.companyName, \.companyActivity, \.phone, \.email,
-                            \.whatsapp, \.countryID, \.password, \.bio,
-                            \.logo, \.license
-                        ]
-                        
-                        if let firstErrorMessage = keysToCheck.compactMap({ error.errors[keyPath: $0]?.first }).first {
-                            print("First error message:", firstErrorMessage)
-                            StaticFunctions.createErrorAlert(msg: firstErrorMessage)
-                        }
-                  
+                        \.companyName, \.companyActivity, \.phone, \.email,
+                         \.whatsapp, \.countryID, \.password, \.bio,
+                         \.logo, \.license
+                    ]
+                    
+                    if let firstErrorMessage = keysToCheck.compactMap({ error.errors[keyPath: $0]?.first }).first {
+                        print("First error message:", firstErrorMessage)
+                        StaticFunctions.createErrorAlert(msg: firstErrorMessage)
+                    }
+                    
                     
                 }
                 
@@ -195,25 +252,130 @@ class CreateStoreVC: UIViewController {
     // MARK: - IBActions
     
     
+    
+    @IBAction func didTapInstitutionButton(_ sender: UIButton) {
+        setUpInstitutionButton()
+    }
+    
+    @IBAction func didTapIndividualButton(_ sender: UIButton) {
+        setUpIndividualButton()
+    }
+    
+    
     @IBAction func didTapChangeLogo(_ sender: UIButton) {
         isStorelogo = true
         openGallery()
-//        let vc = EditStoreVC.instantiate()
-//        navigationController?.pushViewController(vc, animated: true)
+        //        let vc = EditStoreVC.instantiate()
+        //        navigationController?.pushViewController(vc, animated: true)
     }
+    
+    @IBAction func mainCatsBtnAction(_ sender: UIButton) {
+        //        mainCatDropDwon.show()
+        //        DispatchQueue.main.async {
+        //
+        let vc = UIStoryboard(name: ADVS_STORYBOARD, bundle: nil).instantiateViewController(withIdentifier: CATEGORY_VCID) as!  CategoryPopupViewController
+        
+        vc.categoryBtclosure = {
+            (category) in
+            self.mainCatID = category.id ?? 0
+            if  MOLHLanguage.currentAppleLanguage() == "en" {
+                
+                self.mainCatName = category.nameEn ?? ""
+            }
+            else{
+                self.mainCatName = category.nameAr ?? ""
+            }
+            
+            self.getSubCats(catId:self.mainCatID )
+            sender.setTitle(self.mainCatName, for: .normal)
+            
+            //            if self.mainCatID == 74 || self.mainCatID == 75 {
+            //                self.rentViewContainer.isHidden = false
+            //            }else {
+            //                self.rentViewContainer.isHidden = true
+            //            }
+        }
+        
+        self.present(vc, animated: false, completion: nil)
+        
+        
+    }
+    
+    @IBAction func subCatsBtnAction(_ sender: UIButton) {
+        let vc = UIStoryboard(name: ADVS_STORYBOARD, bundle: nil).instantiateViewController(withIdentifier: SUB_CATEGORY_VCID) as!  SubcaregoryViewController
+        vc.categoryId = mainCatID
+        vc.categoryBtclosure = {
+            (category) in
+            
+            self.subCatID = category.id ?? 0
+            if  MOLHLanguage.currentAppleLanguage() == "en" {
+                
+                self.subCatName = category.nameEn ?? ""
+            }
+            else{
+                self.subCatName = category.nameAr ?? ""
+            }
+            sender.setTitle(self.subCatName, for: .normal)
+        }
+        
+        self.present(vc, animated: false, completion: nil)   
+    }
+
+  
     
     @IBAction func didTapChooseCountryButton(_ sender: UIButton) {
         coountryVC = UIStoryboard(name: MAIN_STORYBOARD, bundle: nil).instantiateViewController(withIdentifier: COUNTRY_VCIID) as!  CounriesViewController
         coountryVC.countryBtclosure = {
             (country) in
-            self.countryFlagImage.setImageWithLoading(url: country.image ?? "")
+            if let url = URL(string:Constants.MAIN_DOMAIN + country.image.safeValue) {
+                print(url)
+                self.countryFlagImage.kf.setImage(with: url)
+            }
             self.contryMobileCode.text = country.code ?? "965"
             self.countryCode = country.code ?? "965"
             self.countryName = MOLHLanguage.currentAppleLanguage() == "en" ? (country.nameEn ?? "") : (country.nameAr ?? "")
             self.countryNameButton.setTitle(self.countryName, for: .normal)
             self.countryId = country.id ?? 6
+            self.cityId = -1
+            self.stateId = -1
+            self.getCities()
         }
         self.present(coountryVC, animated: true, completion: nil)
+    }
+    
+    @IBAction func chooseCiityNameAction(_ sender: Any) {
+        if countryId == -1{
+            StaticFunctions.createErrorAlert(msg: "choose country first".localize)
+            return
+        }
+        let vc = UIStoryboard(name: MAIN_STORYBOARD, bundle: nil).instantiateViewController(withIdentifier: CITIES_VCIID) as!  CitiesViewController
+        vc.countryId = self.countryId
+        vc.citiesBtclosure = {
+            (city) in
+           var name =  MOLHLanguage.currentAppleLanguage() == "en" ? (city.nameEn ?? "") : (city.nameAr ?? "")
+            self.cityBtn.setTitle(name, for: .normal)
+            self.cityId = city.id ?? -1
+            self.stateId = -1
+            self.regonBtn.setTitle("", for: .normal)
+
+            self.getAreas()
+        }
+        self.present(vc, animated: true, completion: nil)
+    }
+    @IBAction func choosRegionNameAction(_ sender: Any) {
+        if cityId == -1{
+            StaticFunctions.createErrorAlert(msg: "choose city first".localize)
+            return
+        }
+        let vc = UIStoryboard(name: MAIN_STORYBOARD, bundle: nil).instantiateViewController(withIdentifier: STATE_VCID) as!  StateViewController
+        vc.countryId = self.cityId
+        vc.citiesBtclosure = {
+            (city) in
+           var name =  MOLHLanguage.currentAppleLanguage() == "en" ? (city.nameEn ?? "") : (city.nameAr ?? "")
+            self.regonBtn.setTitle(name, for: .normal)
+            self.stateId = city.id ?? -1
+        }
+        self.present(vc, animated: false, completion: nil)
     }
     
     @IBAction func didTapShowPasswordButton(_ sender: UIButton) {
@@ -294,5 +456,74 @@ extension CreateStoreVC: UIImagePickerControllerDelegate,UINavigationControllerD
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         picker.dismiss(animated: true, completion: nil)
+    }
+}
+extension CreateStoreVC {
+    func getCities(){
+        CountryController.shared.getCities(completion: {
+            countries, check,msg in
+            Constants.CITIES = countries
+            if Constants.CITIES.count > 0{
+                self.cityId = Constants.CITIES[0].id ?? -1
+                self.cityBtn.setTitle(MOLHLanguage.currentAppleLanguage() == "en" ? Constants.CITIES[0].nameEn : Constants.CITIES[0].nameAr, for: .normal)
+                self.getAreas()
+            }
+        }, countryId: countryId)
+    }
+    func getAreas(){
+        CountryController.shared.getStates(completion: {
+            countries, check,msg in
+            Constants.STATUS = countries
+            if Constants.STATUS.count > 0{
+                self.stateId = Constants.STATUS[0].id ?? -1
+                self.regonBtn.setTitle(MOLHLanguage.currentAppleLanguage() == "en" ? Constants.STATUS[0].nameEn : Constants.STATUS[0].nameAr, for: .normal)
+            }
+        }, countryId: cityId)
+    }
+    
+    private  func getMainCats(){
+        CategoryController.shared.getCategoories { [weak self]categories, check, error in
+            guard let self = self else {return}
+            
+            for cat in categories {
+                if MOLHLanguage.currentAppleLanguage() == "en"{
+                    self.mainCatsList.append(cat.nameEn ?? "")
+                    self.mainCatsIDsList.append(cat.id ?? 0)
+                    print(self.mainCatsIDsList)
+                    print(self.mainCatsList)
+                }else{
+                    self.mainCatsList.append(cat.nameAr ?? "")
+                    self.mainCatsIDsList.append(cat.id ?? 0)
+                    print(self.mainCatsIDsList)
+                    print(self.mainCatsList)
+                }
+            }
+            if self.mainCatID == -1 {
+                self.mainCatID = self.mainCatsIDsList[0]
+            }
+            mainCatBtn.setTitle(mainCatsList.first, for: .normal)
+            self.getSubCats(catId: self.mainCatID)
+        }
+    }
+    
+    private  func getSubCats(catId:Int){
+        CategoryController.shared.getSubCategories(completion: {[weak self] subCategories, check, error in
+            guard let self = self else {return}
+            self.subCatsList.removeAll()
+            self.subCatsIDsList.removeAll()
+            for cat in subCategories {
+                if MOLHLanguage.currentAppleLanguage() == "en"{
+                    self.subCatsList.append(cat.nameEn ?? "")
+                    self.subCatsIDsList.append(cat.id ?? 0)
+                    print(self.subCatsIDsList)
+                }else{
+                    self.subCatsList.append(cat.nameAr ?? "")
+                    self.subCatsIDsList.append(cat.id ?? 0)
+                    print(self.subCatsIDsList)
+                }
+            }
+            subCatBtn.setTitle(subCatsList.first, for: .normal)
+            
+        }, categoryId: catId)
     }
 }

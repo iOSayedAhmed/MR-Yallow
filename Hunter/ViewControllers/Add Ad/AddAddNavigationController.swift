@@ -31,9 +31,9 @@ class AddAddNavigationController: UINavigationController {
     */
 
 }
-extension AddAddNavigationController:WoofTabBarControllerDataSource, WoofTabBarControllerDelegate {
-
-    func woofTabBarItem() -> WoofTabBarItem {
-        return WoofTabBarItem(title: "Add Your Ad".localize, image: "addAdvsButtonIconGray", selectedImage: "AddAdsIconMain")
-    }
-}
+//extension AddAddNavigationController:WoofTabBarControllerDataSource, WoofTabBarControllerDelegate {
+//
+//    func woofTabBarItem() -> WoofTabBarItem {
+//        return WoofTabBarItem(title: "Add Your Ad".localize, image: "addAdvsButtonIconGray", selectedImage: "AddAdsIconMain")
+//    }
+//}

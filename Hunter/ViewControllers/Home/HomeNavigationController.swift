@@ -34,9 +34,9 @@ class HomeNavigationController: UINavigationController {
 
 }
 
-extension HomeNavigationController:WoofTabBarControllerDataSource, WoofTabBarControllerDelegate {
-    
-    func woofTabBarItem() -> WoofTabBarItem {
-        return WoofTabBarItem(title: "Home".localize, image: "home", selectedImage: "HomeButtonIcon",notificationCount: Constants.notificationsCount)
-    }
-}
+//extension HomeNavigationController:WoofTabBarControllerDataSource, WoofTabBarControllerDelegate {
+//    
+//    func woofTabBarItem() -> WoofTabBarItem {
+//        return WoofTabBarItem(title: "Home".localize, image: "home", selectedImage: "HomeButtonIcon",notificationCount: Constants.notificationsCount)
+//    }
+//}

@@ -31,9 +31,9 @@ class CategoryNavigationController: UINavigationController {
     */
 
 }
-extension CategoryNavigationController:WoofTabBarControllerDataSource, WoofTabBarControllerDelegate {
-
-    func woofTabBarItem() -> WoofTabBarItem {
-        return WoofTabBarItem(title: "Categories".localize, image: "CategoryIcon 1", selectedImage: "CategoryButtonIcon")
-    }
-}
+//extension CategoryNavigationController:WoofTabBarControllerDataSource, WoofTabBarControllerDelegate {
+//
+//    func woofTabBarItem() -> WoofTabBarItem {
+//        return WoofTabBarItem(title: "Categories".localize, image: "CategoryIcon 1", selectedImage: "CategoryButtonIcon")
+//    }
+//}

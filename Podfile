@@ -47,6 +47,7 @@ target 'NewBazar' do
   pod 'FSPagerView'
   pod 'CircleMenu'
   pod 'MyFatoorah'
+  pod 'WHTabbar'
 
 
 end

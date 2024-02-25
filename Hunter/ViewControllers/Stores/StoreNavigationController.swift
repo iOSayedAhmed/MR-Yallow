@@ -31,9 +31,9 @@ class StoreNavigationController: UINavigationController {
     */
 
 }
-extension StoreNavigationController:WoofTabBarControllerDataSource, WoofTabBarControllerDelegate {
-
-    func woofTabBarItem() -> WoofTabBarItem {
-        return WoofTabBarItem(title: "Commercial".localize, image: "storeIconGray", selectedImage: "storeButtonIcon")
-    }
-}
+//extension StoreNavigationController:WoofTabBarControllerDataSource, WoofTabBarControllerDelegate {
+//
+//    func woofTabBarItem() -> WoofTabBarItem {
+//        return WoofTabBarItem(title: "Commercial".localize, image: "storeIconGray", selectedImage: "storeButtonIcon")
+//    }
+//}

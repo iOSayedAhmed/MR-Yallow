@@ -287,6 +287,9 @@
 		C8F374BF2B186FCB00F83674 /* PackagesCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F374BE2B186FCB00F83674 /* PackagesCategoryModel.swift */; };
 		C8F374C12B18D0A500F83674 /* PendingUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F374C02B18D0A500F83674 /* PendingUserController.swift */; };
 		C8F374DA2B1E7E1100F83674 /* PaymentMethodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F374D92B1E7E1100F83674 /* PaymentMethodCollectionViewCell.swift */; };
+		C8FEED1F2B8B632D00F1FBD1 /* WHTabbarCurved.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FEED1E2B8B632D00F1FBD1 /* WHTabbarCurved.swift */; };
+		C8FEED212B8B634C00F1FBD1 /* WHTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FEED202B8B634C00F1FBD1 /* WHTabbarController.swift */; };
+		C8FEED232B8B638400F1FBD1 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FEED222B8B638400F1FBD1 /* extensions.swift */; };
 		C8FF98042AA50B4F00DBA6CF /* PackagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FF98032AA50B4F00DBA6CF /* PackagesModel.swift */; };
 		C8FF98062AA50CD900DBA6CF /* PackagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FF98052AA50CD900DBA6CF /* PackagesController.swift */; };
 /* End PBXBuildFile section */
@@ -585,6 +588,9 @@
 		C8F374BE2B186FCB00F83674 /* PackagesCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesCategoryModel.swift; sourceTree = "<group>"; };
 		C8F374C02B18D0A500F83674 /* PendingUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingUserController.swift; sourceTree = "<group>"; };
 		C8F374D92B1E7E1100F83674 /* PaymentMethodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodCollectionViewCell.swift; sourceTree = "<group>"; };
+		C8FEED1E2B8B632D00F1FBD1 /* WHTabbarCurved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHTabbarCurved.swift; sourceTree = "<group>"; };
+		C8FEED202B8B634C00F1FBD1 /* WHTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHTabbarController.swift; sourceTree = "<group>"; };
+		C8FEED222B8B638400F1FBD1 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		C8FF98032AA50B4F00DBA6CF /* PackagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesModel.swift; sourceTree = "<group>"; };
 		C8FF98052AA50CD900DBA6CF /* PackagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesController.swift; sourceTree = "<group>"; };
 		D2935A47F02BDB207D88AACE /* Pods-Monasba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monasba.debug.xcconfig"; path = "Target Support Files/Pods-Monasba/Pods-Monasba.debug.xcconfig"; sourceTree = "<group>"; };
@@ -906,6 +912,7 @@
 				65DD120F29E6915A00A3B8DD /* Localizable.strings */,
 				65DD121129E6915A00A3B8DD /* KeyboardLayoutConstraint.swift */,
 				65DD121229E6915A00A3B8DD /* StaticFunctions.swift */,
+				C8FEED1D2B8B631800F1FBD1 /* WhTabBar */,
 				65DD121329E6915A00A3B8DD /* Localization.swift */,
 				C8D52C2C2AB8F0F20081EA2D /* PaggingForLabel.swift */,
 				C8F253CC2AA1C5AA0063C0F5 /* BasicViewController.swift */,
@@ -1355,6 +1362,16 @@
 			path = PayingMethods;
 			sourceTree = "<group>";
 		};
+		C8FEED1D2B8B631800F1FBD1 /* WhTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C8FEED1E2B8B632D00F1FBD1 /* WHTabbarCurved.swift */,
+				C8FEED202B8B634C00F1FBD1 /* WHTabbarController.swift */,
+				C8FEED222B8B638400F1FBD1 /* extensions.swift */,
+			);
+			path = WhTabBar;
+			sourceTree = "<group>";
+		};
 		DE02A0323CA247B868BF8A85 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1560,6 +1577,7 @@
 				C837A4E42B4C01C1009E873D /* VerificationCodeModel.swift in Sources */,
 				C8A72A3B2A00B45600F9C26D /* SuccessAddingVC.swift in Sources */,
 				C85FFCE52A260D21000C426D /* ChatModel.swift in Sources */,
+				C8FEED1F2B8B632D00F1FBD1 /* WHTabbarCurved.swift in Sources */,
 				C89BB55D2A9FE32D00E3612F /* CreateStoreSuccessfullyVC.swift in Sources */,
 				C8AD40E22A28F4F800E464DB /* SettingVC.swift in Sources */,
 				C8C715002A646981006C5AFE /* FollowAndFollowersTapsCell.swift in Sources */,
@@ -1687,6 +1705,7 @@
 				C85FFCA52A260A0F000C426D /* SendLocC.swift in Sources */,
 				658DE51229F828ED0015D549 /* SortViewController.swift in Sources */,
 				652711F029EBF84300D503F9 /* ForgetPasswordViewController.swift in Sources */,
+				C8FEED232B8B638400F1FBD1 /* extensions.swift in Sources */,
 				C8A281BA2A3DA01E00954090 /* FollowTVCell.swift in Sources */,
 				C8A72A4A2A00CA4700F9C26D /* TableViewCell.swift in Sources */,
 				C87DD3A32A48599300B6B0FB /* ChangePhoneVC.swift in Sources */,
@@ -1706,6 +1725,7 @@
 				C8CCE33E2A19E33B00FFAFB2 /* ProfileController.swift in Sources */,
 				C8205CD02A48884E0039B287 /* VerifyCodeVC.swift in Sources */,
 				65DD122729E6915A00A3B8DD /* GeneralUIExtenstions.swift in Sources */,
+				C8FEED212B8B634C00F1FBD1 /* WHTabbarController.swift in Sources */,
 				C8A2BEC12A3A5F7200A05E77 /* RateOtherUserCell.swift in Sources */,
 				C85FFCAB2A260A4B000C426D /* EditAdVC.swift in Sources */,
 				C8D258442B0F517600A8DE04 /* UserBlockedTableViewCell.swift in Sources */,
