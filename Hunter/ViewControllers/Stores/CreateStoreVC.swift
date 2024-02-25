@@ -90,9 +90,15 @@ class CreateStoreVC: UIViewController {
         getMainCats()
     }
     
-    override func viewDidDisappear(_ animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.isHidden = false
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        NotificationCenter.default.post(name: NSNotification.Name("ShowTabBar"), object: nil)
+        navigationController?.navigationBar.isHidden = false
+//        NotificationCenter.default.post(name: NSNotification.Name("ShowTabBar"), object: nil)
     }
     
     // MARK: - Methods

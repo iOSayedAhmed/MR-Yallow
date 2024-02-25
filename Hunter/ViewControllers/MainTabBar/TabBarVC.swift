@@ -18,13 +18,16 @@ class TabBarVC: UITabBarController {
     
     var centerButton = UIButton(type: .custom)
     
-    
+    var canSelectAddAdvsTab: Bool {
+        
+        return AppDelegate.currentUser.isStore ?? false
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         setuptabBarAppearance()
         view.backgroundColor = .white
         setupTabItems()
-        
+        self.delegate = self
     }
     
  
@@ -127,3 +130,26 @@ class TabBarVC: UITabBarController {
 }
 
 
+extension TabBarVC:UITabBarControllerDelegate{
+    func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+        // Assuming 'canSelectTabIndex2' is a property/variable in your class indicating whether the tab can be selected
+        if let viewControllerIndex = viewControllers?.firstIndex(of: viewController), viewControllerIndex == 2 {
+            if canSelectAddAdvsTab && StaticFunctions.isLogin() {
+                return true
+            }else {
+                StaticFunctions.createInfoAlert(msg: "Please Register as an organization or as a professional to be able to add an advertisement")
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {[weak self] in
+                    guard let self else {return}
+                    let addStoreVC = CreateStoreVC.instantiate()
+                present(addStoreVC, animated: true)
+//                    navigationController?.pushViewController(addStoreVC, animated: true)
+                }
+            return false
+            }
+            
+        }
+        
+        // Allow selection for other tabs
+        return true
+    }
+}

@@ -365,6 +365,14 @@ class HomeViewController: UIViewController {
         }
     }
     
+    
+    @IBAction func didTapMoreCategoris(_ sender: UIButton) {
+        print("More Cat")
+        
+        tabBarController?.selectedIndex = 1
+    }
+    
+    
     //More Feature Ads
     
     @IBAction func didTapMoreFeatureAds(_ sender: UIButton) {
@@ -395,6 +403,7 @@ class HomeViewController: UIViewController {
     
     @IBAction func didTapTourGuideButton(_ sender: UIButton) {
         print("gogogo")
+        tabBarController?.selectedIndex = 1
     }
     
 }

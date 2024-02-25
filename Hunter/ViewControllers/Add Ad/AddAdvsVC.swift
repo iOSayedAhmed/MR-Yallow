@@ -11,7 +11,6 @@ import MOLH
 import IQKeyboardManagerSwift
 import Alamofire
 import TransitionButton
-import WoofTabBarController
 import Kingfisher
 
 
@@ -178,15 +177,15 @@ class AddAdvsVC: UIViewController , PickupMediaPopupVCDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if !StaticFunctions.isLogin() || AppDelegate.currentUser.isStore ?? false{
-            
-            StaticFunctions.createInfoAlert(msg: "Please Register as an organization or as a professional to be able to add an advertisement")
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {[weak self] in
-                guard let self else {return}
-                let addStoreVC = CreateStoreVC.instantiate()
-                navigationController?.pushViewController(addStoreVC, animated: true)
-            }
-        }
+//        if !StaticFunctions.isLogin() || AppDelegate.currentUser.isStore ?? false{
+//            
+//            StaticFunctions.createInfoAlert(msg: "Please Register as an organization or as a professional to be able to add an advertisement")
+//            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {[weak self] in
+//                guard let self else {return}
+//                let addStoreVC = CreateStoreVC.instantiate()
+//                navigationController?.pushViewController(addStoreVC, animated: true)
+//            }
+//        }
         cityId = AppDelegate.currentUser.cityId.safeValue
         regionId = AppDelegate.currentUser.regionId.safeValue
         setupView()
@@ -220,12 +219,9 @@ class AddAdvsVC: UIViewController , PickupMediaPopupVCDelegate {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.isHidden = true
         self.navigationController?.navigationItem.backBarButtonItem?.tintColor = .white
-        tabBarController?.tabBar.isHidden = true
     }
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        tabBarController?.tabBar.isHidden = false
-        
     }
     
     
@@ -754,7 +750,6 @@ extension AddAdvsVC {
         
         DispatchQueue.main.async {
             if self.isComeFromProfile {
-                NotificationCenter.default.post(name: NSNotification.Name("hideTabBar"), object: nil)
                 self.headerViewHeightConstraints.constant = 80
             }else{
                 self.headerViewHeightConstraints.constant = 0
