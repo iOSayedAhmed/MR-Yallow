@@ -27,6 +27,13 @@ class TabBarVC: UITabBarController {
         setuptabBarAppearance()
         view.backgroundColor = .white
         setupTabItems()
+        if let items = self.tabBar.items {
+                // Adjust the first item as an example
+                let adjustment: CGFloat = -12 // Move up by 5 points
+                items[2].imageInsets = UIEdgeInsets(top: adjustment, left: 0, bottom: -adjustment, right: 0)
+            items[2].titlePositionAdjustment = UIOffset(horizontal: 0, vertical: 4) // Move title down
+
+            }
         self.delegate = self
     }
     
@@ -38,8 +45,8 @@ class TabBarVC: UITabBarController {
         storesVC.tabBarItem.selectedImage = UIImage(named: "Institutions")?.withTintColor(UIColor(named: "#0EBFB1") ?? .yellow, renderingMode: .alwaysOriginal).resized(to: CGSize(width: 25, height: 25))
         storesVC.tabBarItem.image = UIImage(named: "Institutions")?.withTintColor(.gray.withAlphaComponent(0.7), renderingMode: .alwaysOriginal).resized(to: CGSize(width: 20, height: 20))
         storesVC.title = "Institutions".localize
-        addAdsVC.tabBarItem.selectedImage = UIImage(named: "AddAdsIconMain")?.withTintColor(UIColor(named: "#0EBFB1") ?? .yellow, renderingMode: .alwaysOriginal).resized(to: CGSize(width: 25, height: 25))
-        addAdsVC.tabBarItem.image = UIImage(named: "addAdvsButtonIconGray")?.withTintColor(.gray.withAlphaComponent(0.7), renderingMode: .alwaysOriginal).resized(to: CGSize(width: 20, height: 20))
+        addAdsVC.tabBarItem.selectedImage = UIImage(named: "TabBarAddIcon")?.withTintColor(UIColor(named: "#0EBFB1") ?? .yellow, renderingMode: .alwaysOriginal).resized(to: CGSize(width: 60, height: 60))
+        addAdsVC.tabBarItem.image = UIImage(named: "TabBarAddIcon")?.resized(to: CGSize(width: 60, height: 60))
         addAdsVC.title = "Add Your Ad".localize
         categoryVC.tabBarItem.selectedImage = UIImage(named: "CategoryButtonIcon")?.withTintColor(UIColor(named: "#0EBFB1") ?? .yellow, renderingMode: .alwaysOriginal).resized(to: CGSize(width: 25, height: 25))
         categoryVC.tabBarItem.image = UIImage(named: "CategoryIcon 1")?.withTintColor(.gray.withAlphaComponent(0.7), renderingMode: .alwaysOriginal).resized(to: CGSize(width: 20, height: 20))

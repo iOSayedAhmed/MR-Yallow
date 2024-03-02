@@ -16,16 +16,18 @@ class mainSideCategoryCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var divider: UIView!
     
     func setData(category:Category) {
-        if let name = category.nameAr  {
-            if name.contains("اسال"){
+        if let name = category.nameEn  {
+            if name.contains("tour"){
                 if  MOLHLanguage.currentAppleLanguage() == "en" {
-                    lbl_name.text = "ask \(AppDelegate.currentCountry.nameEn ?? "")"
+                    lbl_name.text = category.nameEn ?? category.nameAr ?? ""
                 }
                 else{
-                    lbl_name.text = "اسال \(AppDelegate.currentCountry.nameAr ?? "")"
+                    lbl_name.text = category.nameAr ?? category.nameEn ?? ""
                     
                 }
-                cImageView.image = UIImage(named: "askImage")
+                cImageView.image = UIImage(named: "tourguide")
+                cImageView.contentMode = .scaleAspectFit
+                imageBackView.backgroundColor = UIColor(named: "#0EBFB1") ?? .yellow
             }
             else{
                 if  MOLHLanguage.currentAppleLanguage() == "en" {
@@ -36,6 +38,7 @@ class mainSideCategoryCollectionViewCell: UICollectionViewCell {
                     
                 }
                 cImageView.setImageWithLoading(url: category.image ?? "")
+//                imageBackView.backgroundColor = .clear
             }
         }
         

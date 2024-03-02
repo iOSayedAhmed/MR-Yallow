@@ -9,6 +9,7 @@ import UIKit
 
 class AsksViewController: UIViewController {
 
+    @IBOutlet weak var addCommentContainerView: UIView!
     @IBOutlet weak var tableView: UITableView!
     var asks = [Ask]()
     var page = 1
@@ -25,6 +26,7 @@ class AsksViewController: UIViewController {
         getData()
         NotificationCenter.default.addObserver(self, selector: #selector(self.updateData(_:)), name: NSNotification.Name(rawValue: "updateData"), object: nil)
 
+        addCommentContainerView.shake()
         // Do any additional setup after loading the view.
     }
     @objc func updateData(_ notification: NSNotification) {

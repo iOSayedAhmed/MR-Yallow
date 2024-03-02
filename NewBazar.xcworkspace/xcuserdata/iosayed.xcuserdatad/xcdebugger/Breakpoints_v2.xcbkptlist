@@ -5492,8 +5492,8 @@
             filePath = "Hunter/Controllers/StoresController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "138"
-            endingLineNumber = "138"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
             landmarkName = "updateStore(completion:link:param:images:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -5508,8 +5508,8 @@
             filePath = "Hunter/Controllers/StoresController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
             landmarkName = "updateStore(completion:link:param:images:)"
             landmarkType = "7">
             <Locations>

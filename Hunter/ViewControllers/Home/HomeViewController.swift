@@ -493,7 +493,7 @@ extension HomeViewController{
             }else{
                 StaticFunctions.createErrorAlert(msg: message)
             }
-        }, countryId: countryId)
+        }, countryId: countryId,catId: 0)
     }
     
     

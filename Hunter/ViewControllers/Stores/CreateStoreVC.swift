@@ -56,7 +56,7 @@ class CreateStoreVC: UIViewController {
     
     
     // MARK: - Properties
-    
+    var isCompany = 0  
     var isStorelogo = false
     var storeLogoImage = UIImage()
     var storeLicenseImage = UIImage()
@@ -213,7 +213,7 @@ class CreateStoreVC: UIViewController {
         let licenseImage = storeLicenseImage.jpegData(compressionQuality: 0.3)!
         
         self.registerButton.startAnimation()
-        StoresController.shared.createStore(fullname: fullNameTextField.text.safeValue, mobile: (countryCode ?? "965") + mobileTextFiled.text.safeValue , whatsAppNum: whatsAppNumberTextFiled.text.safeValue, email: emailTextFiled.text.safeValue, activity: activityTextFiled.text.safeValue, countryCode: countryId, password: passwordTextField.text.safeValue, bio: aboutCompanyTextField.text.safeValue, logoImage:logoImage , licenseImage: licenseImage) { data in
+        StoresController.shared.createStore(fullname: fullNameTextField.text.safeValue, mobile: (countryCode ?? "965") + mobileTextFiled.text.safeValue , whatsAppNum: whatsAppNumberTextFiled.text.safeValue, email: emailTextFiled.text.safeValue, activity: activityTextFiled.text.safeValue, countryCode: countryId, password: passwordTextField.text.safeValue, bio: aboutCompanyTextField.text.safeValue, logoImage:logoImage , licenseImage: licenseImage,cityId: "\(cityId)",catId: "\(mainCatID)",regionId: "\(stateId)",subCatId: "\(subCatID)",isCompany: isCompany, workTime: "") { data in
             
             self.registerButton.stopAnimation()
             guard let data = data else { return }
@@ -261,10 +261,14 @@ class CreateStoreVC: UIViewController {
     
     @IBAction func didTapInstitutionButton(_ sender: UIButton) {
         setUpInstitutionButton()
+        isCompany = 1
     }
     
     @IBAction func didTapIndividualButton(_ sender: UIButton) {
         setUpIndividualButton()
+        isCompany = 0
+        
+        
     }
     
     

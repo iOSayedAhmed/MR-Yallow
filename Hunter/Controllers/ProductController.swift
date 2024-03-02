@@ -62,12 +62,13 @@ class ProductController{
         }, link: Constants.HOME_PRODUCTS_URL , param: param)
     }
     
-    func getStores(completion: @escaping([StoreObject], Int, String)->(),countryId:Int){
+    func getStores(completion: @escaping([StoreObject], Int, String)->(),countryId:Int,catId:Int){
         
         let params = [
-            "country_id": countryId
+            "country_id": countryId,
+            "cat_id":catId
         ]
-        APIConnection.apiConnection.getConnectionWithParam(completion: { data in
+        APIConnection.apiConnection.postConnection(completion: { data in
             guard let data = data else { return }
             
             do {

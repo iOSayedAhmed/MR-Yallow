@@ -14,12 +14,13 @@ import MOLH
 class StoresController {
     static let shared = StoresController()
     
-    func getStores(completion: @escaping([StoreObject], Int, String)->(),countryId:Int){
+    func getStores(completion: @escaping([StoreObject], Int, String)->(),countryId:Int,catId:Int){
         
         let params = [
-            "country_id": countryId
+            "country_id": countryId,
+            "cat_id":catId
         ]
-        APIConnection.apiConnection.getConnectionWithParam(completion: { data in
+        APIConnection.apiConnection.postConnection(completion: { data in
             guard let data = data else { return }
             
             do {
@@ -44,7 +45,7 @@ class StoresController {
         }, link: Constants.HOME_STORES_URL,param:params)
     }
     
-    func createStore(fullname: String, mobile: String, whatsAppNum: String, email: String, activity: String, countryCode: Int, password: String, bio: String, logoImage: Data, licenseImage: Data, completion: @escaping (Data?) -> Void) {
+    func createStore(fullname: String, mobile: String, whatsAppNum: String, email: String, activity: String, countryCode: Int, password: String, bio: String, logoImage: Data, licenseImage: Data,cityId:String,catId:String,regionId:String,subCatId:String,isCompany:Int,workTime:String, completion: @escaping (Data?) -> Void) {
 
         // API Endpoint
         let url = Constants.HOME_STORES_URL
@@ -57,7 +58,14 @@ class StoresController {
             "whatsapp":whatsAppNum,
             "country_id":countryCode,
             "password":password,
-            "bio":bio
+            "bio":bio,
+            "city_id":cityId,
+            "region_id":regionId,
+            "cat_id":catId,
+            "sub_cat_id":subCatId,
+            "is_company":isCompany,
+            "work_time":workTime
+            
         ] as [String : Any]
         // Header
         var headers: HTTPHeaders =

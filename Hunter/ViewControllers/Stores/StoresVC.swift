@@ -62,7 +62,12 @@ class StoresVC: UIViewController {
     var sliderProdsList = [SliderObject]()
     var normalSliderList = [NormalSlider]()
     let badgeLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 15, height: 15))
-
+    
+    var catId: Int = 0 {
+        didSet {
+            getStores()
+        }
+    }
     var categories = [Category]()
 
     //MARK: - App Life Cycle
@@ -292,7 +297,7 @@ extension StoresVC:UICollectionViewDelegate,UICollectionViewDataSource,UICollect
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if collectionView == categoriesCollectionView {
-            
+            catId = categories[indexPath.item].id.safeValue
         }else {
             let storeProfile = StoreProfileVC.instantiate()
             storeProfile.otherUserId = storesList[indexPath.item].userID ?? 0
@@ -405,7 +410,7 @@ extension StoresVC {
             }else{
                 StaticFunctions.createErrorAlert(msg: message)
             }
-        }, countryId: countryId)
+        }, countryId: countryId, catId: catId)
     }
     
     
@@ -473,7 +478,7 @@ extension StoresVC {
             categories, check, msg in
             guard let self else {return}
             self.categories = categories
-            self.categories.insert(Category(nameAr: "الكل", nameEn: "All", id: 9999, hasSubCat: 0), at: 0)
+            self.categories.insert(Category(nameAr: "الكل", nameEn: "All", id: 0, hasSubCat: 0), at: 0)
             
             self.categoriesCollectionView.reloadData()
                 self.categoriesCollectionView.selectItem(at: [0,0], animated: false, scrollPosition: .centeredHorizontally)

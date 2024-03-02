@@ -184,7 +184,7 @@ extension UIView {
     func shake() {
         let animation = CAKeyframeAnimation(keyPath: "transform.translation.y")
         animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
-        animation.duration = 1.0
+        animation.duration = 1.8
         animation.repeatCount = 3
         animation.values = [15.0, -15.0, 15.0, -15.0, 10.0, -10.0, 5.0, -5.0, 0.0 ]
         layer.add(animation, forKey: "shake")

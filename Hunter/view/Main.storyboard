@@ -1722,7 +1722,7 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="666"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uoC-AG-oUc">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1559.6666666666667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1469.6666666666667"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3tu-l8-wsG">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="1439.6666666666667"/>
@@ -3039,7 +3039,7 @@
                                             <constraint firstItem="3tu-l8-wsG" firstAttribute="leading" secondItem="uoC-AG-oUc" secondAttribute="leading" id="Dgb-fn-dlg"/>
                                             <constraint firstAttribute="trailing" secondItem="3tu-l8-wsG" secondAttribute="trailing" id="KHG-NV-frI"/>
                                             <constraint firstItem="3tu-l8-wsG" firstAttribute="top" secondItem="uoC-AG-oUc" secondAttribute="top" id="KUL-i3-a35"/>
-                                            <constraint firstAttribute="bottom" secondItem="3tu-l8-wsG" secondAttribute="bottom" constant="120" id="s86-mT-g2J"/>
+                                            <constraint firstAttribute="bottom" secondItem="3tu-l8-wsG" secondAttribute="bottom" constant="30" id="s86-mT-g2J"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -3056,7 +3056,7 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="AdD-dM-BKE"/>
                             </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u1z-5d-aNX">
-                                <rect key="frame" x="295" y="609" width="80" height="80"/>
+                                <rect key="frame" x="295" y="639" width="80" height="80"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Co7-C7-ElQ">
                                         <rect key="frame" x="16" y="14.666666666666629" width="48" height="51"/>
@@ -3114,7 +3114,7 @@
                             <constraint firstItem="Nyc-U3-U4X" firstAttribute="height" secondItem="Lz5-bU-K11" secondAttribute="height" multiplier="0.18" id="3dJ-4E-Cir"/>
                             <constraint firstItem="cIO-Hd-Gt1" firstAttribute="leading" secondItem="Lz5-bU-K11" secondAttribute="leading" id="HEu-vf-4rS"/>
                             <constraint firstAttribute="trailing" secondItem="cIO-Hd-Gt1" secondAttribute="trailing" id="Qwx-iO-udZ"/>
-                            <constraint firstItem="KFm-kJ-eF4" firstAttribute="bottom" secondItem="u1z-5d-aNX" secondAttribute="bottom" constant="80" id="Vvk-G4-OHz"/>
+                            <constraint firstItem="KFm-kJ-eF4" firstAttribute="bottom" secondItem="u1z-5d-aNX" secondAttribute="bottom" constant="50" id="Vvk-G4-OHz"/>
                             <constraint firstItem="KFm-kJ-eF4" firstAttribute="trailing" secondItem="u1z-5d-aNX" secondAttribute="trailing" constant="295" id="XHX-1t-wWt"/>
                             <constraint firstItem="cIO-Hd-Gt1" firstAttribute="top" secondItem="KFm-kJ-eF4" secondAttribute="top" id="YCF-r2-8mH"/>
                             <constraint firstAttribute="bottom" secondItem="cIO-Hd-Gt1" secondAttribute="bottom" id="izo-8F-Pmd"/>
@@ -4155,7 +4155,7 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="760"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a0M-xS-gFL">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1195"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1095"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="f6a-4y-HRh">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="1065"/>
@@ -5438,7 +5438,7 @@
                                         <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="f6a-4y-HRh" firstAttribute="leading" secondItem="a0M-xS-gFL" secondAttribute="leading" id="A4G-jI-8Va"/>
-                                            <constraint firstAttribute="bottom" secondItem="f6a-4y-HRh" secondAttribute="bottom" constant="130" id="CRn-wL-D9g"/>
+                                            <constraint firstAttribute="bottom" secondItem="f6a-4y-HRh" secondAttribute="bottom" constant="30" id="CRn-wL-D9g"/>
                                             <constraint firstItem="f6a-4y-HRh" firstAttribute="top" secondItem="a0M-xS-gFL" secondAttribute="top" id="r3E-Oy-HRX"/>
                                             <constraint firstAttribute="trailing" secondItem="f6a-4y-HRh" secondAttribute="trailing" id="rn0-hc-iBU"/>
                                         </constraints>
