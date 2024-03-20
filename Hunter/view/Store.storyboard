@@ -3270,10 +3270,10 @@ To get free ads</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="08O-Ck-7oc" userLabel="Cover">
-                                <rect key="frame" x="0.0" y="0.0" width="393.33333333333331" height="270"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="270"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kR5-Kq-jKH">
-                                        <rect key="frame" x="0.0" y="0.0" width="393.33333333333331" height="270"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="270"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="270" id="MIz-Kq-GXs"/>
                                         </constraints>
@@ -3298,7 +3298,7 @@ To get free ads</string>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ntg-jy-czY">
-                                        <rect key="frame" x="335.33333333333331" y="50" width="50" height="200"/>
+                                        <rect key="frame" x="335" y="50" width="50" height="200"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="FME-gY-Fpp">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="200"/>
@@ -3438,7 +3438,7 @@ To get free ads</string>
                                 <rect key="frame" x="131.66666666666666" y="190" width="129.99999999999997" height="130"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpk-Uv-nGK">
-                                        <rect key="frame" x="-20.000000000000014" y="-20" width="50" height="50"/>
+                                        <rect key="frame" x="-19.999999999999986" y="-20" width="50" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="rpk-Uv-nGK" secondAttribute="height" multiplier="1:1" id="Ct9-w1-8o3"/>
                                             <constraint firstAttribute="width" constant="50" id="xIH-uc-n12"/>
@@ -3492,19 +3492,19 @@ To get free ads</string>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" tag="3" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" translatesAutoresizingMaskIntoConstraints="NO" id="vrI-s8-TLB">
-                                <rect key="frame" x="0.0" y="320" width="393.33333333333331" height="498"/>
+                                <rect key="frame" x="0.0" y="320" width="393" height="498"/>
                                 <subviews>
                                     <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l6f-8f-epB">
-                                        <rect key="frame" x="0.0" y="0.0" width="393.33333333333331" height="932.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="900.33333333333337"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="KzO-d7-TPF">
-                                                <rect key="frame" x="15" y="10" width="363.33333333333331" height="94.333333333333329"/>
+                                                <rect key="frame" x="15" y="10" width="363" height="94.333333333333329"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="X3h-4c-VTV">
-                                                        <rect key="frame" x="0.0" y="0.0" width="363.33333333333331" height="45.666666666666664"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="363" height="45.666666666666664"/>
                                                         <subviews>
                                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="SuN-wU-9u5">
-                                                                <rect key="frame" x="0.0" y="0.0" width="363.33333333333331" height="30"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="363" height="30"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="30" id="zmw-cL-rxT"/>
                                                                 </constraints>
@@ -3513,7 +3513,7 @@ To get free ads</string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQ8-zy-CIe">
-                                                                <rect key="frame" x="0.0" y="30.000000000000004" width="363.33333333333331" height="15.666666666666668"/>
+                                                                <rect key="frame" x="0.0" y="30.000000000000004" width="363" height="15.666666666666668"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                 <color key="textColor" name="#0093F5"/>
                                                                 <nil key="highlightedColor"/>
@@ -3521,7 +3521,7 @@ To get free ads</string>
                                                         </subviews>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="1000" text="----- -----" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Nyq-dJ-svG">
-                                                        <rect key="frame" x="0.0" y="60.666666666666686" width="363.33333333333331" height="33.666666666666657"/>
+                                                        <rect key="frame" x="0.0" y="60.666666666666686" width="363" height="33.666666666666657"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <color key="textColor" name="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -3529,10 +3529,10 @@ To get free ads</string>
                                                 </subviews>
                                             </stackView>
                                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rqM-WW-UvQ">
-                                                <rect key="frame" x="0.0" y="209.33333333333337" width="393.33333333333331" height="90"/>
+                                                <rect key="frame" x="0.0" y="120.33333333333331" width="393" height="90"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Mai-rh-1Nv">
-                                                        <rect key="frame" x="0.0" y="0.0" width="393.33333333333331" height="90"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="90"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TSk-DR-vnB">
                                                                 <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="90"/>
@@ -3543,13 +3543,13 @@ To get free ads</string>
                                                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0EO-Ot-e7x">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="42.666666666666664"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                                <color key="textColor" name="#0093F5"/>
+                                                                                <color key="textColor" name="#787575"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ad" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G85-QK-09T" userLabel="يتابع">
-                                                                                <rect key="frame" x="0.0" y="37.666666666666629" width="98.333333333333329" height="42.333333333333343"/>
+                                                                                <rect key="frame" x="0.0" y="37.666666666666686" width="98.333333333333329" height="42.333333333333343"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <color key="textColor" name="#787575"/>
                                                                                 <nil key="highlightedColor"/>
                                                                                 <userDefinedRuntimeAttributes>
                                                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
@@ -3595,13 +3595,13 @@ To get free ads</string>
                                                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zew-2C-qx7">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="42.666666666666664"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                                <color key="textColor" name="#0093F5"/>
+                                                                                <color key="textColor" name="#787575"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAq-X4-i8K" userLabel="متابعون">
-                                                                                <rect key="frame" x="0.0" y="37.666666666666629" width="98.333333333333329" height="42.333333333333343"/>
+                                                                                <rect key="frame" x="0.0" y="37.666666666666686" width="98.333333333333329" height="42.333333333333343"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <color key="textColor" name="#787575"/>
                                                                                 <nil key="highlightedColor"/>
                                                                                 <userDefinedRuntimeAttributes>
                                                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
@@ -3636,21 +3636,21 @@ To get free ads</string>
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gdA-HD-ak6">
-                                                                <rect key="frame" x="196.66666666666666" y="0.0" width="98.333333333333343" height="90"/>
+                                                                <rect key="frame" x="196.66666666666666" y="0.0" width="97.999999999999972" height="90"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-5" translatesAutoresizingMaskIntoConstraints="NO" id="NFk-hw-1Uu">
-                                                                        <rect key="frame" x="0.0" y="10" width="98.333333333333329" height="80"/>
+                                                                        <rect key="frame" x="0.0" y="10" width="98" height="80"/>
                                                                         <subviews>
                                                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0X7-Ib-h3V">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="42.666666666666664"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="98" height="42.666666666666664"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                                <color key="textColor" name="#0093F5"/>
+                                                                                <color key="textColor" name="#787575"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Followers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WJ0-tX-Z38">
-                                                                                <rect key="frame" x="0.0" y="37.666666666666629" width="98.333333333333329" height="42.333333333333343"/>
+                                                                                <rect key="frame" x="0.0" y="37.666666666666686" width="98" height="42.333333333333343"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <color key="textColor" name="#787575"/>
                                                                                 <nil key="highlightedColor"/>
                                                                                 <userDefinedRuntimeAttributes>
                                                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
@@ -3659,14 +3659,14 @@ To get free ads</string>
                                                                         </subviews>
                                                                     </stackView>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q8T-Ic-UEE">
-                                                                        <rect key="frame" x="97.333333333333343" y="12" width="1" height="66"/>
+                                                                        <rect key="frame" x="97.000000000000028" y="12" width="1" height="66"/>
                                                                         <color key="backgroundColor" red="0.80784313730000001" green="0.83137254900000002" blue="0.85490196080000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" constant="1" id="J8E-Sl-6pU"/>
                                                                         </constraints>
                                                                     </view>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1n-Sf-4Mx">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="90"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="90"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <connections>
                                                                             <action selector="didTapFollowersButton:" destination="GKQ-C2-D3L" eventType="touchUpInside" id="Hog-gF-06k"/>
@@ -3688,7 +3688,7 @@ To get free ads</string>
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b53-So-dmF">
-                                                                <rect key="frame" x="295" y="0.0" width="98.333333333333314" height="90"/>
+                                                                <rect key="frame" x="294.66666666666669" y="0.0" width="98.333333333333314" height="90"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-5" translatesAutoresizingMaskIntoConstraints="NO" id="O5S-dI-A10">
                                                                         <rect key="frame" x="0.0" y="10" width="98.333333333333329" height="80"/>
@@ -3696,13 +3696,13 @@ To get free ads</string>
                                                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYc-0Z-Zcp">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="42.666666666666664"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                                <color key="textColor" name="#0093F5"/>
+                                                                                <color key="textColor" name="#787575"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Followings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4A-UX-aF6">
-                                                                                <rect key="frame" x="0.0" y="37.666666666666629" width="98.333333333333329" height="42.333333333333343"/>
+                                                                                <rect key="frame" x="0.0" y="37.666666666666686" width="98.333333333333329" height="42.333333333333343"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <color key="textColor" name="#787575"/>
                                                                                 <nil key="highlightedColor"/>
                                                                                 <userDefinedRuntimeAttributes>
                                                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
@@ -3769,7 +3769,7 @@ To get free ads</string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="1kk-u4-Wbp">
-                                                <rect key="frame" x="5" y="447.33333333333337" width="383.33333333333331" height="485"/>
+                                                <rect key="frame" x="5" y="415.33333333333337" width="383" height="485"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="485" id="8lc-tj-rQs"/>
@@ -4034,135 +4034,11 @@ To get free ads</string>
                                                     <outlet property="delegate" destination="GKQ-C2-D3L" id="NQO-mb-oMq"/>
                                                 </connections>
                                             </collectionView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="FsW-Wf-skS">
-                                                <rect key="frame" x="8" y="120.33333333333331" width="377.33333333333331" height="73"/>
-                                                <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Cqa-Ll-Qo7">
-                                                        <rect key="frame" x="21" y="0.0" width="335.33333333333331" height="16"/>
-                                                        <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="TpY-11-F1U">
-                                                                <rect key="frame" x="0.0" y="0.0" width="147.66666666666666" height="16"/>
-                                                                <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Your Current plan:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MsJ-ga-XDB">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="16"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                                        <color key="textColor" name="blackColor"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                        <userDefinedRuntimeAttributes>
-                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
-                                                                        </userDefinedRuntimeAttributes>
-                                                                    </label>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Silver" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ly2-Ao-f6i">
-                                                                        <rect key="frame" x="113.99999999999999" y="0.0" width="33.666666666666671" height="16"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                                        <color key="textColor" name="#0093F5"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                        <userDefinedRuntimeAttributes>
-                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
-                                                                        </userDefinedRuntimeAttributes>
-                                                                    </label>
-                                                                </subviews>
-                                                            </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" id="LS1-vY-jiN">
-                                                                <rect key="frame" x="197.66666666666669" y="0.0" width="137.66666666666669" height="15.666666666666666"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your have" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hv2-tt-UJv">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="59.666666666666664" height="16"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                                        <color key="textColor" name="blackColor"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                        <userDefinedRuntimeAttributes>
-                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
-                                                                        </userDefinedRuntimeAttributes>
-                                                                    </label>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="35" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHS-aF-QwC">
-                                                                        <rect key="frame" x="64.666666666666657" y="0.0" width="16.333333333333329" height="16"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                                        <color key="textColor" name="#0093F5"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                    </label>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paid ads" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAg-f0-kNd">
-                                                                        <rect key="frame" x="85.999999999999972" y="0.0" width="51.666666666666657" height="16"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                                        <color key="textColor" name="blackColor"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                        <userDefinedRuntimeAttributes>
-                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
-                                                                        </userDefinedRuntimeAttributes>
-                                                                    </label>
-                                                                </subviews>
-                                                                <viewLayoutGuide key="safeArea" id="hH4-aJ-B0h"/>
-                                                            </stackView>
-                                                        </subviews>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="16" id="MrA-qR-DTz"/>
-                                                        </constraints>
-                                                    </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="tDW-5C-QrL">
-                                                        <rect key="frame" x="53.666666666666657" y="28" width="270" height="45"/>
-                                                        <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDR-27-3cU" userLabel="phone">
-                                                                <rect key="frame" x="0.0" y="0.0" width="45" height="45"/>
-                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" image="callImage"/>
-                                                                <connections>
-                                                                    <action selector="didTapPhoneButton:" destination="GKQ-C2-D3L" eventType="touchUpInside" id="g4k-nE-0Pg"/>
-                                                                </connections>
-                                                            </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2jj-9Z-QaD" userLabel="whats">
-                                                                <rect key="frame" x="45" y="0.0" width="45" height="45"/>
-                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" image="whatsAppImage"/>
-                                                                <connections>
-                                                                    <action selector="didTapWhatsAppButton:" destination="GKQ-C2-D3L" eventType="touchUpInside" id="KFF-G5-s7a"/>
-                                                                </connections>
-                                                            </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9C-D9-yG9" userLabel="link">
-                                                                <rect key="frame" x="90" y="0.0" width="45" height="45"/>
-                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" image="webSiteImage"/>
-                                                                <connections>
-                                                                    <action selector="didTapWebSiteButton:" destination="GKQ-C2-D3L" eventType="touchUpInside" id="WKL-yV-cU1"/>
-                                                                </connections>
-                                                            </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6Q-B8-Lfr" userLabel="instgram">
-                                                                <rect key="frame" x="135" y="0.0" width="45" height="45"/>
-                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" image="instgramImage"/>
-                                                                <connections>
-                                                                    <action selector="didTapInstgramButton:" destination="GKQ-C2-D3L" eventType="touchUpInside" id="xhB-K4-HJA"/>
-                                                                </connections>
-                                                            </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLf-Jd-kLs" userLabel="location">
-                                                                <rect key="frame" x="180" y="0.0" width="45" height="45"/>
-                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" image="storeLocationImage"/>
-                                                                <connections>
-                                                                    <action selector="didTapLocationButton:" destination="GKQ-C2-D3L" eventType="touchUpInside" id="DZR-kl-JlD"/>
-                                                                </connections>
-                                                            </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9R-em-tEe" userLabel="twitter">
-                                                                <rect key="frame" x="224.99999999999997" y="0.0" width="45.000000000000028" height="45"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="45" id="mUC-fU-y1i"/>
-                                                                    <constraint firstAttribute="width" secondItem="a9R-em-tEe" secondAttribute="height" multiplier="1:1" id="rYR-RD-gef"/>
-                                                                </constraints>
-                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" image="twitter"/>
-                                                                <connections>
-                                                                    <action selector="didTapTwitterButton:" destination="GKQ-C2-D3L" eventType="touchUpInside" id="ACB-FL-uNX"/>
-                                                                </connections>
-                                                            </button>
-                                                        </subviews>
-                                                    </stackView>
-                                                </subviews>
-                                            </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="G0E-SJ-UYw">
-                                                <rect key="frame" x="12" y="315.33333333333337" width="369.33333333333331" height="116"/>
+                                                <rect key="frame" x="12" y="283.33333333333337" width="369" height="116"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMX-Ny-ojf">
-                                                        <rect key="frame" x="0.0" y="0.0" width="369.33333333333331" height="55"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="369" height="55"/>
                                                         <color key="backgroundColor" name="#0093F5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="55" id="SZh-ly-Mwe"/>
@@ -4181,7 +4057,7 @@ To get free ads</string>
                                                         </connections>
                                                     </button>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="QVa-wg-i9n">
-                                                        <rect key="frame" x="0.0" y="71" width="369.33333333333331" height="45"/>
+                                                        <rect key="frame" x="0.0" y="71" width="369" height="45"/>
                                                         <subviews>
                                                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4r-Pn-S13">
                                                                 <rect key="frame" x="0.0" y="0.0" width="0.0" height="34"/>
@@ -4222,26 +4098,120 @@ To get free ads</string>
                                                     </stackView>
                                                 </subviews>
                                             </stackView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Rb-GG-WDQ">
+                                                <rect key="frame" x="4" y="222.33333333333337" width="385" height="45"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TpY-11-F1U">
+                                                        <rect key="frame" x="0.0" y="14.666666666666629" width="140.33333333333334" height="15.666666666666664"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" ambiguous="YES" text="Your Current plan:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MsJ-ga-XDB">
+                                                                <rect key="frame" x="0.0" y="0.0" width="106.66666666666667" height="15.666666666666666"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                                <color key="textColor" name="blackColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Silver" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ly2-Ao-f6i">
+                                                                <rect key="frame" x="106.66666666666667" y="0.0" width="33.666666666666671" height="15.666666666666666"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                                <color key="textColor" name="#0093F5"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Cqa-Ll-Qo7">
+                                                        <rect key="frame" x="247.33333333333337" y="14.666666666666629" width="137.66666666666663" height="16"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" id="LS1-vY-jiN">
+                                                                <rect key="frame" x="0.0" y="0.0" width="137.66666666666666" height="16"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your have" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hv2-tt-UJv">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="59.666666666666664" height="16"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                                        <color key="textColor" name="blackColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="35" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHS-aF-QwC">
+                                                                        <rect key="frame" x="64.666666666666657" y="0.0" width="16.333333333333329" height="16"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                                        <color key="textColor" name="#0093F5"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paid ads" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAg-f0-kNd">
+                                                                        <rect key="frame" x="85.999999999999972" y="0.0" width="51.666666666666657" height="16"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                                        <color key="textColor" name="blackColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </label>
+                                                                </subviews>
+                                                                <viewLayoutGuide key="safeArea" id="hH4-aJ-B0h"/>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="16" id="MrA-qR-DTz"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uu1-FW-U53">
+                                                        <rect key="frame" x="144.33333333333334" y="8" width="99" height="29"/>
+                                                        <color key="backgroundColor" name="#0093F5"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Buy Package" image="cube.box" catalog="system">
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="TpY-11-F1U" firstAttribute="centerY" secondItem="9Rb-GG-WDQ" secondAttribute="centerY" id="F27-Iz-cKi"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Cqa-Ll-Qo7" secondAttribute="trailing" id="LK7-hA-4FS"/>
+                                                    <constraint firstItem="TpY-11-F1U" firstAttribute="leading" secondItem="9Rb-GG-WDQ" secondAttribute="leading" id="Ri8-H5-x6m"/>
+                                                    <constraint firstItem="Cqa-Ll-Qo7" firstAttribute="leading" secondItem="uu1-FW-U53" secondAttribute="trailing" constant="4" id="S8F-Ss-4tC"/>
+                                                    <constraint firstItem="uu1-FW-U53" firstAttribute="leading" secondItem="TpY-11-F1U" secondAttribute="trailing" constant="4" id="Uvj-Av-eLi"/>
+                                                    <constraint firstAttribute="height" constant="45" id="cEO-kI-3k9"/>
+                                                    <constraint firstAttribute="bottom" secondItem="uu1-FW-U53" secondAttribute="bottom" constant="8" id="cft-cU-Wgf"/>
+                                                    <constraint firstItem="uu1-FW-U53" firstAttribute="top" secondItem="9Rb-GG-WDQ" secondAttribute="top" constant="8" id="rbn-Xy-O4w"/>
+                                                    <constraint firstItem="Cqa-Ll-Qo7" firstAttribute="centerY" secondItem="9Rb-GG-WDQ" secondAttribute="centerY" id="xXk-BA-CB1"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstItem="FsW-Wf-skS" firstAttribute="top" secondItem="KzO-d7-TPF" secondAttribute="bottom" constant="16" id="02W-jH-H9a"/>
-                                            <constraint firstItem="G0E-SJ-UYw" firstAttribute="top" secondItem="rqM-WW-UvQ" secondAttribute="bottom" constant="16" id="3bz-qX-wYd"/>
                                             <constraint firstItem="KzO-d7-TPF" firstAttribute="leading" secondItem="l6f-8f-epB" secondAttribute="leading" constant="15" id="4GJ-x8-d9U"/>
                                             <constraint firstItem="KzO-d7-TPF" firstAttribute="top" secondItem="l6f-8f-epB" secondAttribute="top" constant="10" id="5ep-hg-8VY"/>
                                             <constraint firstItem="rqM-WW-UvQ" firstAttribute="leading" secondItem="l6f-8f-epB" secondAttribute="leading" id="6cO-Xs-Moq"/>
+                                            <constraint firstItem="9Rb-GG-WDQ" firstAttribute="top" secondItem="rqM-WW-UvQ" secondAttribute="bottom" constant="12" id="8HP-yk-WFV"/>
+                                            <constraint firstItem="rqM-WW-UvQ" firstAttribute="top" secondItem="KzO-d7-TPF" secondAttribute="bottom" constant="16" id="8IS-j1-Pr6"/>
                                             <constraint firstItem="1kk-u4-Wbp" firstAttribute="leading" secondItem="l6f-8f-epB" secondAttribute="leading" constant="5" id="BCc-CT-Pfz"/>
-                                            <constraint firstItem="rqM-WW-UvQ" firstAttribute="top" secondItem="FsW-Wf-skS" secondAttribute="bottom" constant="16" id="D36-J8-eZC"/>
-                                            <constraint firstItem="FsW-Wf-skS" firstAttribute="leading" secondItem="l6f-8f-epB" secondAttribute="leading" constant="8" id="Ho6-Yv-TEm"/>
+                                            <constraint firstItem="9Rb-GG-WDQ" firstAttribute="leading" secondItem="l6f-8f-epB" secondAttribute="leading" constant="4" id="G53-gC-S6B"/>
                                             <constraint firstItem="KzO-d7-TPF" firstAttribute="centerX" secondItem="l6f-8f-epB" secondAttribute="centerX" id="Ko3-u6-v8g"/>
                                             <constraint firstItem="1kk-u4-Wbp" firstAttribute="top" secondItem="G0E-SJ-UYw" secondAttribute="bottom" constant="16" id="O1z-cr-tF5"/>
+                                            <constraint firstItem="G0E-SJ-UYw" firstAttribute="top" secondItem="9Rb-GG-WDQ" secondAttribute="bottom" constant="16" id="UNk-rS-aTP"/>
                                             <constraint firstAttribute="trailing" secondItem="1kk-u4-Wbp" secondAttribute="trailing" constant="5" id="VNh-Yx-zem"/>
                                             <constraint firstAttribute="trailing" secondItem="G0E-SJ-UYw" secondAttribute="trailing" constant="12" id="ZRK-ey-r3w"/>
+                                            <constraint firstAttribute="trailing" secondItem="9Rb-GG-WDQ" secondAttribute="trailing" constant="4" id="eSU-RO-HLS"/>
                                             <constraint firstAttribute="trailing" secondItem="rqM-WW-UvQ" secondAttribute="trailing" id="mPI-8l-01Z"/>
-                                            <constraint firstItem="Cqa-Ll-Qo7" firstAttribute="width" secondItem="l6f-8f-epB" secondAttribute="width" multiplier="0.85" id="tzB-a0-b1v"/>
                                             <constraint firstItem="G0E-SJ-UYw" firstAttribute="leading" secondItem="l6f-8f-epB" secondAttribute="leading" constant="12" id="wi5-1F-CTG"/>
                                             <constraint firstAttribute="bottom" secondItem="1kk-u4-Wbp" secondAttribute="bottom" id="xAK-dF-h32"/>
-                                            <constraint firstAttribute="trailing" secondItem="FsW-Wf-skS" secondAttribute="trailing" constant="8" id="xxo-08-Lxt"/>
                                             <constraint firstAttribute="trailing" secondItem="KzO-d7-TPF" secondAttribute="trailing" constant="15" id="zWC-rx-Bit"/>
                                         </constraints>
                                     </view>
@@ -4254,19 +4224,83 @@ To get free ads</string>
                                     <constraint firstItem="l6f-8f-epB" firstAttribute="width" secondItem="vrI-s8-TLB" secondAttribute="width" id="y7n-4x-zbv"/>
                                 </constraints>
                             </scrollView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bs0-r5-58k">
+                                <rect key="frame" x="8.0000000000000071" y="274" width="115.66666666666669" height="41"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDR-27-3cU" userLabel="phone">
+                                        <rect key="frame" x="0.0" y="0.0" width="35.666666666666664" height="41"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="callImage"/>
+                                        <connections>
+                                            <action selector="didTapPhoneButton:" destination="GKQ-C2-D3L" eventType="touchUpInside" id="g4k-nE-0Pg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2jj-9Z-QaD" userLabel="whats">
+                                        <rect key="frame" x="35.666666666666664" y="0.0" width="38.999999999999993" height="41"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="whatsAppImage"/>
+                                        <connections>
+                                            <action selector="didTapWhatsAppButton:" destination="GKQ-C2-D3L" eventType="touchUpInside" id="KFF-G5-s7a"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9C-D9-yG9" userLabel="link">
+                                        <rect key="frame" x="74.666666666666671" y="0.0" width="41" height="41"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="webSiteImage"/>
+                                        <connections>
+                                            <action selector="didTapWebSiteButton:" destination="GKQ-C2-D3L" eventType="touchUpInside" id="WKL-yV-cU1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fkW-Ct-NQo">
+                                <rect key="frame" x="269.66666666666669" y="274" width="115.33333333333331" height="41"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLf-Jd-kLs" userLabel="location">
+                                        <rect key="frame" x="0.0" y="0.0" width="33.333333333333336" height="41"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="storeLocationImage"/>
+                                        <connections>
+                                            <action selector="didTapLocationButton:" destination="GKQ-C2-D3L" eventType="touchUpInside" id="DZR-kl-JlD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6Q-B8-Lfr" userLabel="instgram">
+                                        <rect key="frame" x="33.333333333333314" y="0.0" width="41" height="41"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="instgramImage"/>
+                                        <connections>
+                                            <action selector="didTapInstgramButton:" destination="GKQ-C2-D3L" eventType="touchUpInside" id="xhB-K4-HJA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9R-em-tEe" userLabel="twitter">
+                                        <rect key="frame" x="74.333333333333314" y="0.0" width="41" height="41"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="twitter"/>
+                                        <connections>
+                                            <action selector="didTapTwitterButton:" destination="GKQ-C2-D3L" eventType="touchUpInside" id="ACB-FL-uNX"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="at9-qo-yV6"/>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="08O-Ck-7oc" secondAttribute="trailing" id="30e-Qk-EV1"/>
                             <constraint firstItem="08O-Ck-7oc" firstAttribute="leading" secondItem="M1S-J8-i34" secondAttribute="leading" id="3Hw-ly-AIg"/>
+                            <constraint firstItem="Bs0-r5-58k" firstAttribute="leading" secondItem="at9-qo-yV6" secondAttribute="leading" constant="8" id="6gZ-fx-uXM"/>
+                            <constraint firstItem="EoM-AX-vYt" firstAttribute="leading" secondItem="Bs0-r5-58k" secondAttribute="trailing" constant="8" id="80V-Yc-I0e"/>
                             <constraint firstItem="08O-Ck-7oc" firstAttribute="top" secondItem="M1S-J8-i34" secondAttribute="top" id="AVC-zz-vQ3"/>
                             <constraint firstItem="vrI-s8-TLB" firstAttribute="width" secondItem="M1S-J8-i34" secondAttribute="width" id="GEr-dh-0gd"/>
+                            <constraint firstItem="fkW-Ct-NQo" firstAttribute="leading" secondItem="EoM-AX-vYt" secondAttribute="trailing" constant="8" id="GS3-Qa-Aw6"/>
                             <constraint firstItem="EoM-AX-vYt" firstAttribute="top" secondItem="08O-Ck-7oc" secondAttribute="bottom" constant="-80" id="Ht4-Ic-LUg"/>
                             <constraint firstItem="vrI-s8-TLB" firstAttribute="bottom" secondItem="at9-qo-yV6" secondAttribute="bottom" id="KMN-rc-eYa"/>
                             <constraint firstItem="at9-qo-yV6" firstAttribute="leading" secondItem="vrI-s8-TLB" secondAttribute="leading" id="SRg-pO-Ran"/>
+                            <constraint firstItem="Bs0-r5-58k" firstAttribute="top" secondItem="08O-Ck-7oc" secondAttribute="bottom" constant="4" id="TRw-Y9-bD8"/>
+                            <constraint firstItem="at9-qo-yV6" firstAttribute="trailing" secondItem="fkW-Ct-NQo" secondAttribute="trailing" constant="8" id="aHS-Q9-umo"/>
                             <constraint firstItem="vrI-s8-TLB" firstAttribute="top" secondItem="EoM-AX-vYt" secondAttribute="bottom" id="bEA-VT-WvR"/>
                             <constraint firstItem="vrI-s8-TLB" firstAttribute="trailing" secondItem="at9-qo-yV6" secondAttribute="trailing" id="d4Z-dd-rcz"/>
+                            <constraint firstItem="fkW-Ct-NQo" firstAttribute="top" secondItem="08O-Ck-7oc" secondAttribute="bottom" constant="4" id="dcu-kP-ciV"/>
                             <constraint firstItem="EoM-AX-vYt" firstAttribute="centerX" secondItem="at9-qo-yV6" secondAttribute="centerX" id="pEd-aG-zPO"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
@@ -4601,6 +4635,7 @@ To get free ads</string>
         <image name="chatIcon" width="26" height="26"/>
         <image name="closeButtonImage" width="40" height="40"/>
         <image name="createStoreBackgroundImage" width="323.66665649414062" height="385"/>
+        <image name="cube.box" catalog="system" width="128" height="123"/>
         <image name="dropDownIcon" width="14" height="8"/>
         <image name="edit" width="20" height="24"/>
         <image name="editCoverImage" width="70" height="70"/>
@@ -4648,6 +4683,9 @@ To get free ads</string>
         </namedColor>
         <namedColor name="#707070">
             <color red="0.23137254901960785" green="0.23137254901960785" blue="0.23137254901960785" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#787575">
+            <color red="0.47058823529411764" green="0.45882352941176469" blue="0.45882352941176469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="#8F8F8F">
             <color red="0.56099998950958252" green="0.56099998950958252" blue="0.56099998950958252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
